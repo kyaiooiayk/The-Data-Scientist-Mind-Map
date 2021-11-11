@@ -5,6 +5,7 @@ A mind map created using the FreeMind software. It contains links to codes, arti
 See [this](https://en.wikipedia.org/wiki/FreeMind#cite_note-1) Wikipedia article.
 
 ## How to download the software?
-This can be downloaded directly from [SourceForge] here(https://sourceforge.net/projects/freemind/)
+This can be downloaded directly from [SourceForge](https://sourceforge.net/projects/freemind/)
 
-![ScreenShot](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map/master/image.png)
+
+![ScreenShot](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map/blob/main/image.png)
