@@ -6,3 +6,5 @@ See [this](https://en.wikipedia.org/wiki/FreeMind#cite_note-1) Wikipedia article
 
 ## How to download the software?
 This can be downloaded directly from [SourceForge] here(https://sourceforge.net/projects/freemind/)
+
+![ScreenShot](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map/master/image.png)
