@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1638007511240" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1638513767622" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1637938677108" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="205">
@@ -862,7 +862,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612283288430" FOLDED="true" ID="ID_1858721446" MODIFIED="1637938677111" POSITION="left" TEXT="Ensemble Methods">
+<node CREATED="1612283288430" ID="ID_1858721446" MODIFIED="1638513771079" POSITION="left" TEXT="Ensemble Methods">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1050,6 +1050,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
 <node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1638006205516" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
