@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1638513767622" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1639755455725" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1637938677108" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="205">
@@ -215,7 +215,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346007166" FOLDED="true" HGAP="32" ID="ID_868088033" MODIFIED="1637938677109" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
+<node CREATED="1612346007166" FOLDED="true" HGAP="32" ID="ID_868088033" MODIFIED="1639755701038" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -445,11 +445,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346219316" FOLDED="true" ID="ID_1463702153" MODIFIED="1637677332255" TEXT="Dimensionality Reduction">
+<node CREATED="1612346219316" ID="ID_1463702153" MODIFIED="1639755463197" TEXT="Dimensionality Reduction">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612427775403" FOLDED="true" ID="ID_517080443" MODIFIED="1637677331803" TEXT="via Feature Selection">
+<node CREATED="1612427775403" ID="ID_517080443" MODIFIED="1639755465710" TEXT="via Feature Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428044578" ID="ID_464335436" MODIFIED="1636466423877" TEXT="Backward feature elimination">
@@ -469,7 +469,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612427862177" FOLDED="true" ID="ID_461824067" MODIFIED="1637677331807" TEXT="via Feature Extraction">
+<node CREATED="1612427862177" ID="ID_461824067" MODIFIED="1639755465720" TEXT="via Feature Extraction">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428104667" ID="ID_1574413017" LINK="https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/" MODIFIED="1636473315123" TEXT="PCA = Principal Component Analysis">
@@ -521,14 +521,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612428317746" FOLDED="true" ID="ID_1713967792" MODIFIED="1637677331812" TEXT="via Projections">
+<node CREATED="1612428317746" ID="ID_1713967792" MODIFIED="1639755465724" TEXT="via Projections">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428333301" ID="ID_1756405621" MODIFIED="1636466423876" TEXT="t-SNE = t-distributed Stocahstic Neighbour Embedding">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1612428364090" ID="ID_91529947" MODIFIED="1636466423876" TEXT="UMAP = Uniform Manifold Approximation and Projection">
+<node CREATED="1612428364090" ID="ID_91529947" LINK="https://umap-learn.readthedocs.io/en/latest/#:~:text=install%20umap-learn-,User%20Guide%20/%20Tutorial%3A,-How%20to%20Use" MODIFIED="1639755528029" TEXT="UMAP = Uniform Manifold Approximation and Projection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -866,7 +866,7 @@
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612283301298" FOLDED="true" ID="ID_1504106731" MODIFIED="1637677332287" TEXT="Bagging (bootstrap aggregation)">
+<node CREATED="1612283301298" ID="ID_1504106731" MODIFIED="1639755726621" TEXT="Bagging (bootstrap aggregation)">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612284015878" FOLDED="true" ID="ID_166896518" MODIFIED="1637677331841" TEXT="Random Forest">
@@ -887,7 +887,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612283316110" FOLDED="true" ID="ID_879374857" MODIFIED="1637677332289" TEXT="Boosting">
+<node CREATED="1612283316110" ID="ID_879374857" MODIFIED="1639755726627" TEXT="Boosting">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612283939441" FOLDED="true" ID="ID_1663614086" MODIFIED="1637677331842" TEXT="AdaBoost (Adaptive)">
@@ -925,7 +925,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1613121185158" ID="ID_1547266193" MODIFIED="1636466423873" TEXT="RGF = Regularised Greedy Forest">
+<node CREATED="1613121185158" ID="ID_1547266193" LINK="https://github.com/RGF-team/rgf/tree/master/python-package" MODIFIED="1639755743643" TEXT="RGF = Regularised Greedy Forest">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -934,7 +934,7 @@
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1612438243016" FOLDED="true" ID="ID_866324390" MODIFIED="1637677332295" TEXT="Voting">
+<node CREATED="1612438243016" ID="ID_866324390" MODIFIED="1639755726629" TEXT="Voting">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636287363518" ID="ID_469167134" LINK="https://machinelearningmastery.com/horizontal-voting-ensemble/" MODIFIED="1636466423873" TEXT="Horizontal Voting Deep Learning">
@@ -954,7 +954,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613383421968" FOLDED="true" ID="ID_1909920742" MODIFIED="1637677332296" TEXT="Base learner">
+<node CREATED="1613383421968" ID="ID_1909920742" MODIFIED="1639755726631" TEXT="Base learner">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613383441910" FOLDED="true" ID="ID_1640231042" MODIFIED="1637677331847" TEXT="tree">
@@ -980,14 +980,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636293397624" FOLDED="true" ID="ID_656572249" MODIFIED="1637677332297" TEXT="Weighted Average Ensemble">
+<node CREATED="1636293397624" ID="ID_656572249" MODIFIED="1639755726632" TEXT="Weighted Average Ensemble">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636293414579" ID="ID_1173200090" LINK="https://machinelearningmastery.com/weighted-average-ensemble-for-deep-learning-neural-networks/" MODIFIED="1636466423872" TEXT="Weighted Average Ensemble for DL">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1636294717596" FOLDED="true" ID="ID_1474951394" MODIFIED="1637677332299" TEXT="Ensemble of DL models">
+<node CREATED="1636294717596" ID="ID_1474951394" MODIFIED="1639755726634" TEXT="Ensemble of DL models">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636294733271" ID="ID_701174949" LINK="https://machinelearningmastery.com/model-averaging-ensemble-for-deep-learning-neural-networks/" MODIFIED="1636466841951" TEXT="MLPs ensemble for classification">
@@ -998,18 +998,18 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636295438311" FOLDED="true" ID="ID_9740989" MODIFIED="1637677332299" TEXT="Super Learner">
+<node CREATED="1636295438311" ID="ID_9740989" MODIFIED="1639755726635" TEXT="Super Learner">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636295450477" ID="ID_1808091741" LINK="https://machinelearningmastery.com/super-learner-ensemble-in-python/" MODIFIED="1636466423872" TEXT="Super Learner for Classification and Regression">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612284124370" FOLDED="true" HGAP="19" ID="ID_1537693538" MODIFIED="1637677332300" TEXT="Trees" VSHIFT="1">
+<node CREATED="1612284124370" HGAP="19" ID="ID_1537693538" MODIFIED="1639755726641" TEXT="Trees" VSHIFT="1">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612427085708" FOLDED="true" ID="ID_1709006074" MODIFIED="1637677331848" TEXT="methods for constructing tree" VSHIFT="2">
+<node CREATED="1612427085708" FOLDED="true" ID="ID_1709006074" MODIFIED="1639755726642" TEXT="methods for constructing tree" VSHIFT="2">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612284149427" ID="ID_1689018013" MODIFIED="1636466423871" TEXT="ID3 (Iterative Dichotomiser 3)">
@@ -1627,16 +1627,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1636465181368" FOLDED="true" ID="ID_1526133273" MODIFIED="1637938806743" POSITION="left" TEXT="Model Selection">
+<node CREATED="1636465181368" FOLDED="true" ID="ID_1526133273" MODIFIED="1639844582732" POSITION="left" TEXT="Model Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612464400658" FOLDED="true" ID="ID_791053873" MODIFIED="1637938805615" TEXT="Cross-validation">
+<node CREATED="1612464400658" FOLDED="true" ID="ID_791053873" MODIFIED="1639844505251" TEXT="Cross-validation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612464416052" ID="ID_762844233" MODIFIED="1636466423868" TEXT="holdout method">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1612464424629" FOLDED="true" ID="ID_1781698484" MODIFIED="1637938804498" TEXT="k-Fold">
+<node CREATED="1612464424629" ID="ID_1781698484" MODIFIED="1638866249774" TEXT="k-Fold">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636295207195" ID="ID_1432764890" LINK="https://machinelearningmastery.com/cross-validation-for-imbalanced-classification/" MODIFIED="1637938802665" TEXT="How to Fix k-Fold Cross-Validation for Imbalanced Classification">
@@ -1649,8 +1649,11 @@
 <node CREATED="1637938778567" ID="ID_1304361303" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/model_selection/model_selection.ipynb" MODIFIED="1637938802667" TEXT="Implementation from scratch">
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1638866293478" ID="ID_1801870752" LINK="https://machinelearningmastery.com/how-to-configure-k-fold-cross-validation/" MODIFIED="1638866322212" TEXT="How to use LOOCV to tune k in  k-Fold CV">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636459091291" FOLDED="true" ID="ID_1954188395" MODIFIED="1637677331910" TEXT="LOOCV = Leave-One-Out CV">
+</node>
+<node CREATED="1636459091291" FOLDED="true" ID="ID_1954188395" MODIFIED="1638866248933" TEXT="LOOCV = Leave-One-Out CV">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636555885170" ID="ID_1728096244" LINK="https://machinelearningmastery.com/loocv-for-evaluating-machine-learning-algorithms/" MODIFIED="1636555980241" TEXT="Ref No. 1"/>
@@ -1688,12 +1691,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1636555811149" FOLDED="true" ID="ID_1393149412" MODIFIED="1637677332312" TEXT="Test/Train Split">
+<node CREATED="1636555811149" ID="ID_1393149412" MODIFIED="1639844514718" TEXT="Test/Train Split">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636555834794" ID="ID_3770625" MODIFIED="1636555860554" TEXT="Once">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636555837226" ID="ID_173220258" LINK="https://machinelearningmastery.com/evaluate-performance-machine-learning-algorithms-python-using-resampling/" MODIFIED="1636555853370" TEXT="Repeated Random Test-Train Splits"/>
+<node CREATED="1636555837226" ID="ID_173220258" LINK="https://machinelearningmastery.com/evaluate-performance-machine-learning-algorithms-python-using-resampling/" MODIFIED="1639844537352" TEXT="Repeated Random Test-Train Splits">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1639844526526" ID="ID_659699331" LINK="https://www.kaggle.com/carlmcbrideellis/what-is-adversarial-validation" MODIFIED="1639844546371" TEXT="Adversarial validation">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1636464708870" FOLDED="true" ID="ID_1256127273" LINK="https://machinelearningmastery.com/probabilistic-model-selection-measures/" MODIFIED="1637677332313" TEXT="Model Selection">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1720,7 +1728,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612465386148" FOLDED="true" ID="ID_1115435963" MODIFIED="1637940927647" POSITION="left" TEXT="ANNs">
+<node CREATED="1612465386148" ID="ID_1115435963" MODIFIED="1639844578909" POSITION="left" TEXT="ANNs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612465397392" FOLDED="true" ID="ID_882354062" LINK="https://arxiv.org/pdf/2105.04026.pdf" MODIFIED="1637677332315" TEXT="activation functions">
@@ -1866,7 +1874,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612532207243" FOLDED="true" ID="ID_333715923" MODIFIED="1637677332317" TEXT="Types">
+<node CREATED="1612532207243" ID="ID_333715923" MODIFIED="1639844588279" TEXT="Types">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612465826715" FOLDED="true" ID="ID_851631417" MODIFIED="1637677331942" TEXT="CNNs">
@@ -2044,7 +2052,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1612968726144" FOLDED="true" ID="ID_1965859091" MODIFIED="1637677331962" TEXT="GAN = Generative Adversarial Networks">
+<node CREATED="1612968726144" ID="ID_1965859091" MODIFIED="1639844592522" TEXT="GAN = Generative Adversarial Networks">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613022669839" FOLDED="true" ID="ID_816888037" MODIFIED="1636554280481" TEXT="Attacks classification">
@@ -2242,7 +2250,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636296804847" FOLDED="true" ID="ID_1509341670" MODIFIED="1636554280483" TEXT="Others">
+<node CREATED="1636296804847" FOLDED="true" ID="ID_1509341670" MODIFIED="1639844597408" TEXT="Others">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636295051932" ID="ID_100074268" LINK="https://machinelearningmastery.com/how-to-interpolate-and-perform-vector-arithmetic-with-faces-using-a-generative-adversarial-network/" MODIFIED="1636466423862" TEXT="GAN Latent Space">
@@ -2263,9 +2271,12 @@
 <node CREATED="1636531460610" ID="ID_1609298428" LINK="https://machinelearningmastery.com/how-to-implement-the-frechet-inception-distance-fid-from-scratch/" MODIFIED="1636531513111" TEXT="Frechet Inception Distance = FID"/>
 <node CREATED="1636531462356" ID="ID_878010391" LINK="https://machinelearningmastery.com/how-to-implement-the-inception-score-from-scratch-for-evaluating-generated-images/" MODIFIED="1636531489107" TEXT="Inception Score = IS"/>
 </node>
-<node CREATED="1636531029364" FOLDED="true" ID="ID_39239384" MODIFIED="1636554280484" TEXT="Loss">
+<node CREATED="1636531029364" FOLDED="true" ID="ID_39239384" MODIFIED="1639844595680" TEXT="Loss">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636531434495" ID="ID_375182995" LINK="https://machinelearningmastery.com/how-to-implement-wasserstein-loss-for-generative-adversarial-networks/" MODIFIED="1636531455173" TEXT="Wasserstein Loss"/>
+</node>
+<node CREATED="1639844526526" ID="ID_281565428" LINK="https://www.kaggle.com/carlmcbrideellis/what-is-adversarial-validation" MODIFIED="1639844546371" TEXT="Adversarial validation">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node CREATED="1636531675140" ID="ID_1338622857" LINK="https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/" MODIFIED="1636531687852" TEXT="Perceptron"/>
@@ -3260,7 +3271,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1637938677120" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1639750137907" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1637677332326" TEXT="Statistical distribution">
@@ -3441,15 +3452,24 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1616403709685" FOLDED="true" ID="ID_1877093204" MODIFIED="1637677332329" TEXT="Map to normal distribution">
+<node CREATED="1616403709685" ID="ID_1877093204" MODIFIED="1639319181783" TEXT="Map to normal distribution">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1616403748002" FOLDED="true" ID="ID_373082257" MODIFIED="1637677332071" TEXT="Power trasform">
+<node CREATED="1616403748002" ID="ID_373082257" MODIFIED="1639319181785" TEXT="Power trasform">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1616403760971" ID="ID_1722620224" MODIFIED="1636466423854" TEXT="Box-Cox">
+<node CREATED="1616403760971" ID="ID_1722620224" LINK="https://onlinestatbook.com/2/transformations/box-cox.html" MODIFIED="1639319205485" TEXT="Box-Cox">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1639319708742" ID="ID_1917480006" LINK="https://towardsdatascience.com/box-cox-transformation-explained-51d745e34203" MODIFIED="1639321243680" TEXT="How to chose lambda value?">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1639320623177" ID="ID_186439246" LINK="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.boxcox_normmax.html?highlight=normmax" MODIFIED="1639321243679" TEXT="How to chose optimal lambda option No #">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1639321184502" ID="ID_600610614" MODIFIED="1639321243678" TEXT="lambda=1 recovers log(x+1) transform">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1616403768295" ID="ID_229957840" MODIFIED="1636466423854" TEXT="Yeo-Johnson">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4169,12 +4189,12 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636888976955" FOLDED="true" HGAP="17" ID="ID_471470803" MODIFIED="1637940923749" POSITION="right" TEXT="Explainable AI" VSHIFT="-208">
+<node CREATED="1636888976955" HGAP="17" ID="ID_471470803" MODIFIED="1639750139982" POSITION="right" TEXT="Explainable AI" VSHIFT="-208">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636889008347" ID="ID_252522470" LINK="https://arxiv.org/pdf/2008.11600.pdf" MODIFIED="1636889044572" TEXT="Variance of Gradients (VoG)">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636897866171" FOLDED="true" ID="ID_820893199" MODIFIED="1637677332336" TEXT="Collinearity">
+<node CREATED="1636897866171" ID="ID_820893199" MODIFIED="1639750268402" TEXT="Collinearity">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636897866171" FOLDED="true" ID="ID_739311392" MODIFIED="1637677332123" TEXT="Tutorials">
 <node CREATED="1636897866171" ID="ID_1225854866" LINK="https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html#sphx-glr-auto-examples-inspection-plot-permutation-importance-multicollinear-py" MODIFIED="1636897880439" TEXT="Collinearity"/>
@@ -4186,6 +4206,15 @@
 </node>
 <node CREATED="1637940831237" ID="ID_1339283201" LINK="https://scikit-learn.org/stable/auto_examples/neural_networks/plot_mnist_filters.html#sphx-glr-auto-examples-neural-networks-plot-mnist-filters-py" MODIFIED="1637940901193" TEXT="Weights visualiation">
 <icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1639750271462" ID="ID_1129021119" MODIFIED="1639750351286" TEXT="Packages">
+<icon BUILTIN="xmag"/>
+<node CREATED="1639750279141" ID="ID_547121728" LINK="https://github.com/Ekeany/Boruta-Shap" MODIFIED="1639750347529" TEXT="Boruta-Shape">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1639750287117" ID="ID_1670623819" LINK="https://github.com/slundberg/shap" MODIFIED="1639750347530" TEXT="SHAP (SHapley Additive exPlanations)">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 </node>
