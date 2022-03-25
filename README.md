@@ -1,4 +1,4 @@
-# The-Data-Scientist-Mind-Map
+# The Data Scientist Mind Map
 A mind map created using the FreeMind software. It contains links to codes, articles, templates and much more.
 
 ## What is FreeMind?
