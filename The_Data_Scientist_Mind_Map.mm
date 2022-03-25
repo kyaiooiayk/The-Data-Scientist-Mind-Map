@@ -3836,19 +3836,19 @@
 </node>
 <node CREATED="1647888867473" ID="ID_1968605954" MODIFIED="1647889104681" TEXT="Based on statistics">
 <icon BUILTIN="xmag"/>
-<node CREATED="1647889107604" ID="ID_166694376" MODIFIED="1647889185992" TEXT="Goodman Kruskal&apos;s lambda">
+<node CREATED="1647889107604" ID="ID_166694376" LINK="https://en.wikipedia.org/wiki/Goodman_and_Kruskal%27s_lambda" MODIFIED="1647890076935" TEXT="Goodman Kruskal&apos;s lambda">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1647889129466" ID="ID_1819812801" MODIFIED="1647889185993" TEXT="Phi coeficient (uses chi-squared statistic)">
+<node CREATED="1647889129466" ID="ID_1819812801" LINK="https://en.wikipedia.org/wiki/Phi_coefficient" MODIFIED="1647890093923" TEXT="Phi coeficient (uses chi-squared statistic)">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1647889138327" ID="ID_1920939561" MODIFIED="1647889185993" TEXT="Cramer&apos;s V (uses chi-squared statistic)">
+<node CREATED="1647889138327" ID="ID_1920939561" LINK="https://en.wikipedia.org/wiki/Cram%C3%A9r%27s_V" MODIFIED="1647890108795" TEXT="Cramer&apos;s V (uses chi-squared statistic)">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1647889142917" ID="ID_812450983" MODIFIED="1647889185993" TEXT="Tschuprow&apos;s T (uses chi-squared statistic)">
+<node CREATED="1647889142917" ID="ID_812450983" LINK="https://en.wikipedia.org/wiki/Tschuprow%27s_T" MODIFIED="1647890531100" TEXT="Tschuprow&apos;s T (uses chi-squared statistic)">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1647889151898" ID="ID_1347786410" MODIFIED="1647889185994" TEXT="Contigency coefficient C (uses chi-squared statistic)">
+<node CREATED="1647889151898" ID="ID_1347786410" LINK="https://www.statisticshowto.com/contingency-coefficient/" MODIFIED="1647890553108" TEXT="Contigency coefficient C (uses chi-squared statistic)">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -3906,9 +3906,18 @@
 </node>
 <node CREATED="1647888628015" ID="ID_803762054" MODIFIED="1647888642857" TEXT="Between categorical and continuous">
 <icon BUILTIN="xmag"/>
-<node CREATED="1647889515501" ID="ID_1029304234" MODIFIED="1647889519093" TEXT="Point biserial correlation"/>
-<node CREATED="1647889519864" ID="ID_1901729876" MODIFIED="1647889528341" TEXT="Logistic regression"/>
-<node CREATED="1647889528927" ID="ID_1780946269" MODIFIED="1647889536393" TEXT="Kurskal Wallis H test"/>
+<node CREATED="1647889515501" ID="ID_1029304234" LINK="https://en.wikipedia.org/wiki/Point-biserial_correlation_coefficient" MODIFIED="1647890590634" TEXT="Point biserial correlation">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1647889519864" ID="ID_1901729876" MODIFIED="1647889988925" TEXT="Logistic regression">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1647890629690" ID="ID_1832301211" LINK="https://en.wikipedia.org/wiki/One-way_analysis_of_variance" MODIFIED="1647890653498" TEXT="One-way ANOVA">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1647889528927" ID="ID_1780946269" LINK="https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_one-way_analysis_of_variance" MODIFIED="1647890664793" TEXT="Kurskal Wallis H test">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 </node>
