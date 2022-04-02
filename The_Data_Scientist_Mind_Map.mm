@@ -3987,7 +3987,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1648368621734" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1648884307688" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4283,10 +4283,10 @@
 <node CREATED="1613991357921" ID="ID_227947968" MODIFIED="1636466423851" TEXT="Speech">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1612535276350" FOLDED="true" ID="ID_1157971383" MODIFIED="1647711629464" TEXT="Time Series">
+<node CREATED="1612535276350" FOLDED="true" ID="ID_1157971383" MODIFIED="1648884305089" TEXT="Time Series">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612535335631" FOLDED="true" ID="ID_1302153900" MODIFIED="1645364396517" TEXT="Decomposition">
+<node CREATED="1612535335631" ID="ID_1302153900" MODIFIED="1648883824356" TEXT="Decomposition">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612535394534" FOLDED="true" ID="ID_847538569" MODIFIED="1645364396211" TEXT="Systematic">
@@ -4314,21 +4314,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1636201141657" FOLDED="true" ID="ID_770389198" MODIFIED="1645364396518" TEXT="Methods">
+<node CREATED="1636201141657" ID="ID_770389198" MODIFIED="1648883824360" TEXT="Methods">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636264705023" ID="ID_256065264" MODIFIED="1636466423851" TEXT="ARMA">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636201156111" FOLDED="true" ID="ID_303754766" MODIFIED="1645364396211" TEXT="ARIMA">
+<node CREATED="1636201156111" ID="ID_303754766" MODIFIED="1648883847305" TEXT="ARIMA">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201262081" ID="ID_1769741603" LINK="https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/" MODIFIED="1636466423851" TEXT="Code #1">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1636201309182" FOLDED="true" ID="ID_761214727" MODIFIED="1645364396211" TEXT="SARIMA">
+<node CREATED="1636201309182" ID="ID_761214727" MODIFIED="1648883847306" TEXT="SARIMA">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201444465" ID="ID_168754771" LINK="https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/" MODIFIED="1636466423851" TEXT="Code #1">
@@ -4339,11 +4339,29 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1648883868093" ID="ID_1579156650" LINK="https://facebook.github.io/prophet/" MODIFIED="1648884108331" TEXT="Prophet">
+<icon BUILTIN="xmag"/>
+<node CREATED="1648884070684" ID="ID_32442179" LINK="https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/" MODIFIED="1648884103629" TEXT="Tutorial #1">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636201505889" FOLDED="true" ID="ID_40038538" MODIFIED="1645364396518" TEXT="Smoothing">
+<node CREATED="1648884076579" ID="ID_1794395223" LINK="https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-prophet-in-python-3" MODIFIED="1648884189114" TEXT="Tutorial #2">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1648883872843" ID="ID_864992223" MODIFIED="1648884282751" TEXT="GLMs">
+<icon BUILTIN="xmag"/>
+<node CREATED="1648884267141" ID="ID_1004305109" LINK="https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a" MODIFIED="1648884278819" TEXT="Tutorial #1">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1648883878147" ID="ID_881903712" MODIFIED="1648884286835" TEXT="GAMs">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1636201505889" ID="ID_40038538" MODIFIED="1648883824361" TEXT="Smoothing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636201525352" FOLDED="true" ID="ID_22136238" MODIFIED="1645364396212" TEXT="Triple Exponential Smoothing">
+<node CREATED="1636201525352" ID="ID_22136238" MODIFIED="1648883839221" TEXT="Triple Exponential Smoothing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201552835" ID="ID_1316281576" LINK="https://machinelearningmastery.com/how-to-grid-search-triple-exponential-smoothing-for-time-series-forecasting-in-python/" MODIFIED="1636466423850" TEXT="Code #1">
@@ -4351,10 +4369,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1636201692220" FOLDED="true" ID="ID_10431529" MODIFIED="1645364396518" TEXT="Pre-Processing">
+<node CREATED="1636201692220" ID="ID_10431529" MODIFIED="1648883824367" TEXT="Pre-Processing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636201703063" FOLDED="true" ID="ID_753915711" MODIFIED="1645364396212" TEXT="Remove Seasonality">
+<node CREATED="1636201703063" ID="ID_753915711" MODIFIED="1648883834971" TEXT="Remove Seasonality">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201722947" ID="ID_228784331" LINK="https://machinelearningmastery.com/time-series-seasonality-with-python/" MODIFIED="1636466423850" TEXT="Code #1">
@@ -4406,14 +4424,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1636456097664" FOLDED="true" ID="ID_1505655025" MODIFIED="1645364396519" TEXT="Watch-out">
+<node CREATED="1636456097664" ID="ID_1505655025" MODIFIED="1648883824367" TEXT="Watch-out">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636456113415" ID="ID_845510511" LINK="https://machinelearningmastery.com/instability-online-learning-stateful-lstm-time-series-forecasting/" MODIFIED="1636466423849" TEXT="Instability of Online Learning with  LSTM">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1638005688656" FOLDED="true" ID="ID_1869717547" MODIFIED="1645364396519" TEXT="Tutorials">
+<node CREATED="1638005688656" ID="ID_1869717547" MODIFIED="1648883824368" TEXT="Tutorials">
 <icon BUILTIN="xmag"/>
 <node CREATED="1638005017335" ID="ID_7632253" LINK="https://keras.io/examples/timeseries/timeseries_anomaly_detection/" MODIFIED="1638005671495" TEXT="Autoencoder in KERAS for timeseries anomaly detection via CNN">
 <icon BUILTIN="button_ok"/>
