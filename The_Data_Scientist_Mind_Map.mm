@@ -28,76 +28,15 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612104951982" FOLDED="true" HGAP="19" ID="ID_485616531" MODIFIED="1648368621723" POSITION="right" TEXT="Post-Processing" VSHIFT="8">
+<node CREATED="1612104951982" FOLDED="true" HGAP="19" ID="ID_485616531" MODIFIED="1648979481414" POSITION="right" TEXT="Post-Processing" VSHIFT="8">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612430993853" FOLDED="true" ID="ID_1457566291" MODIFIED="1647711629429" TEXT="Features analysis" VSHIFT="53">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="xmag"/>
-<node CREATED="1612192571933" ID="ID_782144969" MODIFIED="1636466423880" TEXT="PDP- Partial Dependece Plot">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192599233" ID="ID_829635905" MODIFIED="1636466423880" TEXT="ICE - Individual Conditional Expectation">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192620081" ID="ID_637679340" MODIFIED="1636466423880" TEXT="ALE - Accumulated Local Effects plot">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192643497" FOLDED="true" ID="ID_1762039250" MODIFIED="1645364396478" TEXT="Feature Interactions">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="xmag"/>
-<node CREATED="1612357183988" ID="ID_163762905" MODIFIED="1636466423880" TEXT="H-statistic">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612357198406" ID="ID_454941265" MODIFIED="1636466423880" TEXT="Variable Interaction Networks (VIN)">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612357213374" ID="ID_1544304339" MODIFIED="1636466423880" TEXT="Partial dependence based feature interaction">
-<edge COLOR="#000000"/>
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node CREATED="1612192659425" ID="ID_724973238" MODIFIED="1636466423880" TEXT="Permutation Feature Importance">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192681561" ID="ID_1873778949" MODIFIED="1636466423880" TEXT="Global surrogate">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192691840" FOLDED="true" ID="ID_447444715" MODIFIED="1645364396479" TEXT="Local surrogate">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="xmag"/>
-<node CREATED="1612608405671" ID="ID_222316120" MODIFIED="1636466423880" TEXT="LIME = Local Interpretable model-agnostic Explanations">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node CREATED="1612192703664" ID="ID_1689191295" MODIFIED="1636466423879" TEXT="Scoped rules - ANCHORS">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192720176" ID="ID_1211215376" MODIFIED="1636466423879" TEXT="Shapley values">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612192729200" ID="ID_594699198" MODIFIED="1636466423879" TEXT="SHAP - SHapley Additive exPlanatios">
-<font NAME="Arial" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node CREATED="1612250428847" FOLDED="true" HGAP="22" ID="ID_1626592347" MODIFIED="1647711629430" TEXT="Evaluation Metrics" VSHIFT="-55">
+<node CREATED="1612250428847" FOLDED="true" HGAP="22" ID="ID_1626592347" MODIFIED="1648979480224" TEXT="Evaluation Metrics" VSHIFT="-55">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612250539694" FOLDED="true" HGAP="19" ID="ID_419274219" MODIFIED="1645364396479" TEXT="Classification" VSHIFT="10">
+<node CREATED="1612250539694" FOLDED="true" HGAP="19" ID="ID_419274219" MODIFIED="1648979479623" TEXT="Classification" VSHIFT="10">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612250567842" ID="ID_1175630985" MODIFIED="1636466423879" TEXT="Accuracy">
@@ -145,7 +84,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612250551983" FOLDED="true" ID="ID_1644188004" MODIFIED="1645364396480" TEXT="Regression" VSHIFT="3">
+<node CREATED="1612250551983" FOLDED="true" ID="ID_1644188004" MODIFIED="1648979479624" TEXT="Regression" VSHIFT="3">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612250742093" ID="ID_664045146" MODIFIED="1636466423879" TEXT="Mean Absolute Error (MAE)">
@@ -189,7 +128,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612533874577" FOLDED="true" ID="ID_306865511" MODIFIED="1645364396481" TEXT="Clustering">
+<node CREATED="1612533874577" FOLDED="true" ID="ID_306865511" MODIFIED="1648979479625" TEXT="Clustering">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612533886402" ID="ID_708279514" MODIFIED="1636466423879" TEXT="Silhouette score">
@@ -205,7 +144,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612849799364" FOLDED="true" ID="ID_102171344" MODIFIED="1645364396481" TEXT="Ensamble" VSHIFT="-19">
+<node CREATED="1612849799364" FOLDED="true" ID="ID_102171344" MODIFIED="1648979479625" TEXT="Ensamble" VSHIFT="-19">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612849806659" ID="ID_153332602" MODIFIED="1636466423879" TEXT="oob_score = Out Of Bag score">
@@ -1008,18 +947,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1612283288430" FOLDED="true" ID="ID_1858721446" MODIFIED="1648368621726" POSITION="left" TEXT="Ensemble Methods">
+<node CREATED="1612283288430" FOLDED="true" ID="ID_1858721446" MODIFIED="1648980782100" POSITION="left" TEXT="Ensemble Methods">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612283301298" FOLDED="true" ID="ID_1504106731" MODIFIED="1647711629439" TEXT="Bagging (bootstrap aggregation)">
+<node CREATED="1612283301298" ID="ID_1504106731" MODIFIED="1648980387808" TEXT="Bagging (bootstrap aggregation)">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612284015878" FOLDED="true" ID="ID_166896518" MODIFIED="1645364396489" TEXT="Random Forest">
+<node CREATED="1612284015878" ID="ID_166896518" MODIFIED="1648980389989" TEXT="Random Forest">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1636300430491" ID="ID_169296288" LINK="https://machinelearningmastery.com/implement-random-forest-scratch-python/" MODIFIED="1636466423874" TEXT="Implementation">
+<node CREATED="1636300430491" ID="ID_169296288" LINK="https://machinelearningmastery.com/implement-random-forest-scratch-python/" MODIFIED="1648980395487" TEXT="Implementation">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1648980396477" ID="ID_351252119" LINK="https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance.html#sphx-glr-auto-examples-inspection-plot-permutation-importance-py  " MODIFIED="1648980430579" TEXT="Issue with Random forest impurity-based feature importance">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node CREATED="1612284025731" FOLDED="true" ID="ID_1890188146" MODIFIED="1645364396490" TEXT="Randomised decision tree aka Extra Tree">
@@ -4558,18 +4501,18 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636888976955" FOLDED="true" HGAP="17" ID="ID_471470803" MODIFIED="1648390223376" POSITION="right" TEXT="Explainable AI" VSHIFT="1">
+<node CREATED="1636888976955" FOLDED="true" HGAP="17" ID="ID_471470803" MODIFIED="1648980381674" POSITION="right" TEXT="Explainable AI" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636889008347" ID="ID_252522470" LINK="https://arxiv.org/pdf/2008.11600.pdf" MODIFIED="1636889044572" TEXT="Variance of Gradients (VoG)">
+<node CREATED="1636889008347" ID="ID_252522470" LINK="https://arxiv.org/pdf/2008.11600.pdf" MODIFIED="1648979522056" TEXT="Variance of Gradients (VoG)" VSHIFT="9">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636897866171" FOLDED="true" ID="ID_820893199" MODIFIED="1647711629466" TEXT="Collinearity">
+<node CREATED="1636897866171" FOLDED="true" ID="ID_820893199" MODIFIED="1648980275251" TEXT="Collinearity">
 <icon BUILTIN="xmag"/>
-<node CREATED="1636897866171" FOLDED="true" ID="ID_739311392" MODIFIED="1645364396520" TEXT="Tutorials">
+<node CREATED="1636897866171" FOLDED="true" ID="ID_739311392" MODIFIED="1648980274568" TEXT="Tutorials">
 <node CREATED="1636897866171" ID="ID_1225854866" LINK="https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html#sphx-glr-auto-examples-inspection-plot-permutation-importance-multicollinear-py" MODIFIED="1636897880439" TEXT="Collinearity"/>
 </node>
-<node CREATED="1636897990317" FOLDED="true" ID="ID_999186498" MODIFIED="1645364396520" TEXT="How to detect it?">
+<node CREATED="1636897990317" FOLDED="true" ID="ID_999186498" MODIFIED="1648980274568" TEXT="How to detect it?">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636897997999" ID="ID_1256512076" LINK="http://nbviewer.jupyter.org/github/ethen8181/machine-learning/blob/master/model_selection/collinearity.ipynb  " MODIFIED="1636898016878" TEXT="VIF = Variance Inflation Factor"/>
 </node>
@@ -4577,7 +4520,7 @@
 <node CREATED="1637940831237" ID="ID_1339283201" LINK="https://scikit-learn.org/stable/auto_examples/neural_networks/plot_mnist_filters.html#sphx-glr-auto-examples-neural-networks-plot-mnist-filters-py" MODIFIED="1637940901193" TEXT="Weights visualiation">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1639750271462" FOLDED="true" ID="ID_1129021119" MODIFIED="1647711629467" TEXT="Packages">
+<node CREATED="1639750271462" ID="ID_1129021119" MODIFIED="1648980318106" TEXT="Packages">
 <icon BUILTIN="xmag"/>
 <node CREATED="1639750279141" ID="ID_547121728" LINK="https://github.com/Ekeany/Boruta-Shap" MODIFIED="1639750347529" TEXT="Boruta-Shape">
 <icon BUILTIN="button_ok"/>
@@ -4586,7 +4529,67 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1647682064068" ID="ID_1555340377" LINK="https://arxiv.org/pdf/2010.10596.pdf" MODIFIED="1647682097057" TEXT="Counterfactual Explanations">
+<node CREATED="1647682064068" ID="ID_1555340377" LINK="https://arxiv.org/pdf/2010.10596.pdf" MODIFIED="1648979436706" TEXT="Counterfactual Explanations" VSHIFT="-10">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612430993853" FOLDED="true" ID="ID_781383399" MODIFIED="1648980379391" TEXT="Methods" VSHIFT="-5">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="xmag"/>
+<node CREATED="1612192571933" ID="ID_496612209" LINK="https://christophm.github.io/interpretable-ml-book/pdp.html  " MODIFIED="1648979847002" TEXT="PDP- Partial Dependece Plot">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612192599233" ID="ID_556422911" LINK="https://christophm.github.io/interpretable-ml-book/ice.html  " MODIFIED="1648979867635" TEXT="ICE - Individual Conditional Expectation">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612192620081" ID="ID_716609595" LINK="https://christophm.github.io/interpretable-ml-book/ale.html  " MODIFIED="1648979893821" TEXT="ALE - Accumulated Local Effects plot">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612192643497" FOLDED="true" ID="ID_496488209" MODIFIED="1648980278302" TEXT="Feature Interactions">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="xmag"/>
+<node CREATED="1612357183988" ID="ID_292268892" LINK="https://christophm.github.io/interpretable-ml-book/interaction.html  " MODIFIED="1648980069092" TEXT="H-statistic">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612357198406" ID="ID_602031568" MODIFIED="1636466423880" TEXT="Variable Interaction Networks (VIN)">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612357213374" ID="ID_1059992057" MODIFIED="1636466423880" TEXT="Partial dependence based feature interaction">
+<edge COLOR="#000000"/>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1612192659425" ID="ID_1585037696" LINK="https://christophm.github.io/interpretable-ml-book/feature-importance.html  " MODIFIED="1648980189146" TEXT="Permutation Feature Importance">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612192681561" ID="ID_931691242" LINK="https://christophm.github.io/interpretable-ml-book/global.html  " MODIFIED="1648980212855" TEXT="Global surrogate">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612192691840" ID="ID_1660190343" MODIFIED="1648979525910" TEXT="Local surrogate">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="xmag"/>
+<node CREATED="1612608405671" ID="ID_1009440210" LINK="https://christophm.github.io/interpretable-ml-book/lime.html  " MODIFIED="1648979532484" TEXT="LIME = Local Interpretable model-agnostic Explanations">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1612192703664" ID="ID_439494275" LINK="https://christophm.github.io/interpretable-ml-book/anchors.html  " MODIFIED="1648980267395" TEXT="Scoped rules - ANCHORS">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1612192720176" ID="ID_483567759" LINK="https://christophm.github.io/interpretable-ml-book/shap.html  " MODIFIED="1648980325652" TEXT="Shapley values">
+<font NAME="Arial" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1648979988353" ID="ID_1997376173" LINK="https://bdtechtalks.com/2020/07/27/black-box-ai-models/  " MODIFIED="1648980001416" TEXT="Explainability vs. interpretability">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
