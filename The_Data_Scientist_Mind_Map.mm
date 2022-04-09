@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1648368594373" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1649441595480" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1648368621722" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="227">
@@ -154,7 +154,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1648368773981" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
+<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1649440571287" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -481,7 +481,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346219316" FOLDED="true" ID="ID_1463702153" MODIFIED="1647711629434" TEXT="Dimensionality Reduction">
+<node CREATED="1612346219316" FOLDED="true" ID="ID_1463702153" MODIFIED="1649440571284" TEXT="Dimensionality Reduction">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -606,7 +606,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612428317746" FOLDED="true" ID="ID_1713967792" MODIFIED="1645364396486" TEXT="via Projections">
+<node CREATED="1612428317746" FOLDED="true" ID="ID_1713967792" MODIFIED="1649440571283" TEXT="via Projections">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428333301" ID="ID_1756405621" MODIFIED="1636466423876" TEXT="t-SNE = t-distributed Stocahstic Neighbour Embedding">
@@ -1141,7 +1141,7 @@
 </node>
 <node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
-<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1648369080538" POSITION="left" TEXT="Types of Machine Learning">
+<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1649488433593" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1405,6 +1405,12 @@
 </node>
 </node>
 </node>
+<node CREATED="1649441160106" ID="ID_33604015" MODIFIED="1649442356655" TEXT="Self-supervised">
+<icon BUILTIN="xmag"/>
+<node CREATED="1649441322386" ID="ID_1877926570" LINK="https://analyticsindiamag.com/self-supervised-learning-vs-semi-supervised-learning-how-they-differ/" MODIFIED="1649441464511" TEXT="Self-supevised vs. semi-supervised">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
 <node CREATED="1612426314277" FOLDED="true" ID="ID_1026946604" MODIFIED="1647711629442" TEXT="Unsupervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
@@ -1644,11 +1650,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1612426317843" FOLDED="true" ID="ID_1648105168" MODIFIED="1647711629443" TEXT="Semi-supervised">
+<node CREATED="1612426317843" ID="ID_1648105168" MODIFIED="1649441569984" TEXT="Semi-supervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612530259793" FOLDED="true" ID="ID_62071688" MODIFIED="1645364396495" TEXT="Generative learning">
+<node CREATED="1612530259793" FOLDED="true" ID="ID_62071688" MODIFIED="1649441154641" TEXT="Generative learning">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613053159869" ID="ID_839304541" MODIFIED="1636466423868" TEXT="GAN = Generative Adversarial Network">
@@ -1660,10 +1666,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612519427796" FOLDED="true" ID="ID_1323665750" MODIFIED="1645364396495" TEXT="RL = Reinforcement Learning">
+<node CREATED="1612519427796" FOLDED="true" ID="ID_1323665750" MODIFIED="1649441153142" TEXT="RL = Reinforcement Learning">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612519461004" FOLDED="true" ID="ID_1124354449" MODIFIED="1645364396189" TEXT="Applications">
+<node CREATED="1612519461004" ID="ID_1124354449" MODIFIED="1649440587247" TEXT="Applications">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612519805654" ID="ID_970847921" MODIFIED="1636466423868" TEXT="Game theory">
@@ -1683,7 +1689,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612534446197" FOLDED="true" ID="ID_577639285" MODIFIED="1645364396189" TEXT="Methods">
+<node CREATED="1612534446197" ID="ID_577639285" MODIFIED="1649440587249" TEXT="Methods">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612534451943" ID="ID_870742259" MODIFIED="1636466423868" TEXT="Multi-armed bandit">
@@ -3465,7 +3471,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1648368621733" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1649488428886" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -3712,11 +3718,17 @@
 </node>
 </node>
 </node>
-<node CREATED="1636469143858" FOLDED="true" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1647711629460" TEXT="Critical Values">
+<node CREATED="1636469143858" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1649488421533" TEXT="Critical Values">
+<icon BUILTIN="xmag"/>
+<node CREATED="1636880139113" ID="ID_746270106" MODIFIED="1649488427451" TEXT="Null-hypothesis">
 <icon BUILTIN="button_ok"/>
-<node CREATED="1636880139113" ID="ID_746270106" MODIFIED="1636880156264" TEXT="Null-hypothesis"/>
-<node CREATED="1636880157047" ID="ID_570121438" MODIFIED="1636880159320" TEXT="p-values"/>
-<node CREATED="1636880172296" ID="ID_258185171" MODIFIED="1636880182335" TEXT="Statistical Significance"/>
+</node>
+<node CREATED="1636880157047" ID="ID_570121438" MODIFIED="1649488427451" TEXT="p-values">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636880172296" ID="ID_258185171" MODIFIED="1649488427450" TEXT="Statistical Significance">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1636473896629" FOLDED="true" ID="ID_1998091939" MODIFIED="1647711629460" TEXT="Tests">
 <icon BUILTIN="xmag"/>
@@ -4391,7 +4403,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1636304265883" FOLDED="true" HGAP="27" ID="ID_310154867" MODIFIED="1648368621735" POSITION="right" TEXT="Uncertainity Quantification" VSHIFT="1">
+<node CREATED="1636304265883" HGAP="27" ID="ID_310154867" MODIFIED="1649488392105" POSITION="right" TEXT="Uncertainity Quantification" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636886014526" FOLDED="true" ID="ID_1576596992" MODIFIED="1647711629464" TEXT="Types of Intervals">
@@ -4451,12 +4463,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1637934665404" FOLDED="true" ID="ID_535260979" MODIFIED="1647711629466" TEXT="Quantile Regression">
+<node CREATED="1637934665404" FOLDED="true" ID="ID_535260979" MODIFIED="1649488406283" TEXT="Quantile Regression">
+<icon BUILTIN="xmag"/>
 <node CREATED="1637934676534" FOLDED="true" ID="ID_513165909" MODIFIED="1645364396520" TEXT="Quantile vs. Linear Regression">
 <node CREATED="1637934702971" ID="ID_1830829463" LINK="https://heartbeat.comet.ml/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0" MODIFIED="1637934731511" TEXT="article"/>
 <node CREATED="1637934705468" ID="ID_1334703043" LINK="https://github.com/groverpr/Machine-Learning/blob/master/notebooks/09_Quantile_Regression.ipynb" MODIFIED="1637934721076" TEXT="code"/>
 </node>
 </node>
+<node CREATED="1649488446197" ID="ID_847801389" LINK=" https://www.kdnuggets.com/2022/04/uncertainty-quantification-artificial-intelligencebased-systems.html" MODIFIED="1649488471012" TEXT="Forward and Inverse Uncertainty"/>
 </node>
 <node CREATED="1636876452134" FOLDED="true" HGAP="18" ID="ID_83284660" LINK="https://queue.acm.org/detail.cfm?id=3466134" MODIFIED="1648368621736" POSITION="right" TEXT="Biases" VSHIFT="-7">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4672,10 +4686,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1645354465006" FOLDED="true" HGAP="18" ID="ID_950963492" MODIFIED="1648368621737" POSITION="right" TEXT="Human-in-the-loop (Active Learning)" VSHIFT="-231">
+<node CREATED="1645354465006" FOLDED="true" HGAP="18" ID="ID_950963492" MODIFIED="1649442360689" POSITION="right" TEXT="Human-in-the-loop (Active Learning)" VSHIFT="-231">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1645354512189" FOLDED="true" ID="ID_1297103442" LINK="http://robertmunro.com/uncertainty_sampling_example.html" MODIFIED="1647711629469" TEXT="Uncertainty sampling">
+<node CREATED="1645354512189" ID="ID_1297103442" LINK="http://robertmunro.com/uncertainty_sampling_example.html" MODIFIED="1649441606848" TEXT="Uncertainty sampling">
 <icon BUILTIN="xmag"/>
 <node CREATED="1645354533420" ID="ID_1837319792" MODIFIED="1645354598094" TEXT="List confidence sampling">
 <icon BUILTIN="button_ok"/>
@@ -4690,7 +4704,8 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1645364326551" FOLDED="true" ID="ID_622519981" MODIFIED="1647711629470" TEXT="Diversity sampling">
+<node CREATED="1645364326551" ID="ID_622519981" MODIFIED="1649441615545" TEXT="Diversity sampling">
+<icon BUILTIN="xmag"/>
 <node CREATED="1645364363637" ID="ID_1681939068" MODIFIED="1645364464861" TEXT="Model-based outlier sampling">
 <icon BUILTIN="button_ok"/>
 </node>
