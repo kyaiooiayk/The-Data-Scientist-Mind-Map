@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1658939613101" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1659198512663" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1658853791851" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="227">
@@ -3207,7 +3207,7 @@
 <node CREATED="1637933856452" ID="ID_83105905" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/inverse_propensity_weighting.ipynb" MODIFIED="1637933867531" TEXT="inverse propensity weighting"/>
 <node CREATED="1637933957645" ID="ID_925514843" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/matching.ipynb" MODIFIED="1637933970214" TEXT="Matching"/>
 </node>
-<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1658845749309" POSITION="left" TEXT="Data">
+<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1660373207934" POSITION="left" TEXT="Data">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1647711659338" FOLDED="true" ID="ID_515022280" MODIFIED="1648368619520" TEXT="Where is it coming from?">
@@ -3238,7 +3238,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612527812460" HGAP="21" ID="ID_1716987998" MODIFIED="1659021461470" POSITION="right" TEXT="Training tuning " VSHIFT="-3">
+<node CREATED="1612527812460" FOLDED="true" HGAP="21" ID="ID_1716987998" MODIFIED="1660373139667" POSITION="right" TEXT="Training tuning " VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612542290952" FOLDED="true" ID="ID_422000392" MODIFIED="1647711629455" TEXT="Data splitting">
@@ -3496,7 +3496,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1659021482575" ID="ID_619471846" LINK="https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" MODIFIED="1659022015422" TEXT="Learnig rate">
+<node CREATED="1659021482575" FOLDED="true" ID="ID_619471846" LINK="https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" MODIFIED="1660373138116" TEXT="Learnig rate">
 <icon BUILTIN="xmag"/>
 <node CREATED="1659021539786" ID="ID_152665066" MODIFIED="1659022006248" TEXT="Underfit Learning Curves">
 <icon BUILTIN="button_ok"/>
@@ -4447,10 +4447,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1636304265883" FOLDED="true" HGAP="27" ID="ID_310154867" MODIFIED="1658939598118" POSITION="right" TEXT="Uncertainity Quantification" VSHIFT="1">
+<node CREATED="1636304265883" FOLDED="true" HGAP="27" ID="ID_310154867" LINK="https://www.kdnuggets.com/2022/04/uncertainty-quantification-artificial-intelligencebased-systems.html#" MODIFIED="1660373136243" POSITION="right" TEXT="Uncertainity Quantification for AI" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636886014526" FOLDED="true" ID="ID_1576596992" MODIFIED="1647711629464" TEXT="Types of Intervals">
+<node CREATED="1636886014526" ID="ID_1576596992" MODIFIED="1659198500250" TEXT="Types of Intervals">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636304301756" FOLDED="true" ID="ID_1416144797" MODIFIED="1645364396519" TEXT="Confidence Intervals">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4467,7 +4467,7 @@
 <node CREATED="1636886086679" ID="ID_572608083" MODIFIED="1636886087405" TEXT="Bayesian confidence interval"/>
 <node CREATED="1636886110241" ID="ID_1366781823" LINK="https://d1wqtxts1xzle7.cloudfront.net/46881824/Comprehensive_Review_of_Neural_Network-B20160629-9697-19aexzz-with-cover-page-v2.pdf?Expires=1636889739&amp;Signature=FPbelJakq1aswKytjBxP6S2tNwDqv84~NMRibIKu79dLKnlETOa53MP6vQ-0UEx5Ds8xXOwrtsuWJU~IaCt32kRRyaQHghvbXfRWVbKYV9M72SZJaX68JvZSeqQ5x0pZw2uKIOqEOKNP-wOabLPcWh22WzlT4fArigOsWEnW6SQDFapABauB7ejvD6UC-WlcTHkJCCAJ~F59nkZ5hQwv2KovqxYnTirFsMAVuAb~~eYe3A87AG7pYT6GiKgZ7wCpLht3mnwEjqM4JO6CI--aT~iaqDY-i~CgJ9YLW9Aia0B7MyDMoIuzIlLVtLQ247tnz-rK~tS3aIhBJ2Z7g6fyFg__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" MODIFIED="1636886149398" TEXT="Link btw prediciton and confidence intervals"/>
 </node>
-<node CREATED="1636886174693" FOLDED="true" ID="ID_921465038" LINK="https://d1wqtxts1xzle7.cloudfront.net/46881824/Comprehensive_Review_of_Neural_Network-B20160629-9697-19aexzz-with-cover-page-v2.pdf?Expires=1636889806&amp;Signature=VODiAAyuinvC8~JuDOcRewqq3DbkkbiZWsx4GtxIgkAPJLmQZRthdRxjlUlifwrT54rMAwfClbyXUaGHRnQamBJHkSs3VPZ2Zm6wKk875QUwc3Fh79kk7VMianOwf4ofBWQU7~usHDXhmffENDsVd1fSq-eeuChe2mu9QpcvHJyiOWdinY8-g9IpHZc1z9CuilihKjczKM8hiH~dByh9XNutLyjy-X~ztWn8DaHy3GfiO3FqXntW4aX1kJO3PrHef8Ly-M3k0pe1L0B-~SQRj9VEsvC4kPWIgas3U5qlj9dgJdsgfRJZM6o4uvnxiDvYelvKEFgqkIamOlFPiia2QQ__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" MODIFIED="1647711629465" TEXT="Metrics for Prediction Intervals">
+<node CREATED="1636886174693" ID="ID_921465038" LINK="https://d1wqtxts1xzle7.cloudfront.net/46881824/Comprehensive_Review_of_Neural_Network-B20160629-9697-19aexzz-with-cover-page-v2.pdf?Expires=1636889806&amp;Signature=VODiAAyuinvC8~JuDOcRewqq3DbkkbiZWsx4GtxIgkAPJLmQZRthdRxjlUlifwrT54rMAwfClbyXUaGHRnQamBJHkSs3VPZ2Zm6wKk875QUwc3Fh79kk7VMianOwf4ofBWQU7~usHDXhmffENDsVd1fSq-eeuChe2mu9QpcvHJyiOWdinY8-g9IpHZc1z9CuilihKjczKM8hiH~dByh9XNutLyjy-X~ztWn8DaHy3GfiO3FqXntW4aX1kJO3PrHef8Ly-M3k0pe1L0B-~SQRj9VEsvC4kPWIgas3U5qlj9dgJdsgfRJZM6o4uvnxiDvYelvKEFgqkIamOlFPiia2QQ__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" MODIFIED="1659198500252" TEXT="Metrics for Prediction Intervals">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636886191490" ID="ID_459999737" MODIFIED="1636886273506" TEXT="PICP = Prediction Interval Coverage Interval">
 <icon BUILTIN="button_ok"/>
@@ -4485,12 +4485,12 @@
 <node CREATED="1636882294698" ID="ID_24795727" LINK="https://en.wikipedia.org/wiki/Heteroscedasticity  " MODIFIED="1636882312211" TEXT="Heteroscedastic vs. homoscedastic">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636882574897" FOLDED="true" ID="ID_966028053" MODIFIED="1647711629465" TEXT="Distribution">
+<node CREATED="1636882574897" ID="ID_966028053" MODIFIED="1659198500254" TEXT="Distribution">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636882604075" ID="ID_104888274" MODIFIED="1636882613938" TEXT="Normal -&gt; 68-95-99.7 -1sigma, 2sigma an d3*sigma"/>
 <node CREATED="1636882615652" ID="ID_412120284" LINK="https://www.kdnuggets.com/2021/09/advanced-statistical-concepts-data-science.html  " MODIFIED="1636882654633" TEXT="Non- Normal -&gt; Chebyshev&#x2019;s Inequality "/>
 </node>
-<node CREATED="1636886407922" FOLDED="true" ID="ID_813385384" MODIFIED="1647711629466" TEXT="Method to get PIs">
+<node CREATED="1636886407922" ID="ID_813385384" MODIFIED="1659198500257" TEXT="Method to get PIs">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636886417632" FOLDED="true" ID="ID_1050807399" MODIFIED="1645364396519" TEXT="Bootstrapping">
 <node CREATED="1636886472268" FOLDED="true" ID="ID_349880722" MODIFIED="1645364396213" TEXT="Tutorials">
@@ -4507,7 +4507,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1637934665404" FOLDED="true" ID="ID_535260979" MODIFIED="1649488406283" TEXT="Quantile Regression">
+<node CREATED="1637934665404" ID="ID_535260979" MODIFIED="1659198500258" TEXT="Quantile Regression">
 <icon BUILTIN="xmag"/>
 <node CREATED="1637934676534" FOLDED="true" ID="ID_513165909" MODIFIED="1645364396520" TEXT="Quantile vs. Linear Regression">
 <node CREATED="1637934702971" ID="ID_1830829463" LINK="https://heartbeat.comet.ml/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0" MODIFIED="1637934731511" TEXT="article"/>
@@ -4559,20 +4559,27 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636888976955" FOLDED="true" HGAP="17" ID="ID_471470803" MODIFIED="1648980381674" POSITION="right" TEXT="Explainable AI" VSHIFT="1">
+<node CREATED="1636888976955" FOLDED="true" HGAP="17" ID="ID_471470803" MODIFIED="1659198486982" POSITION="right" TEXT="Explainable AI" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636889008347" ID="ID_252522470" LINK="https://arxiv.org/pdf/2008.11600.pdf" MODIFIED="1648979522056" TEXT="Variance of Gradients (VoG)" VSHIFT="9">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636897866171" FOLDED="true" ID="ID_820893199" MODIFIED="1648980275251" TEXT="Collinearity">
+<node CREATED="1636897866171" ID="ID_820893199" MODIFIED="1659193436466" TEXT="Collinearity">
 <icon BUILTIN="xmag"/>
-<node CREATED="1636897866171" FOLDED="true" ID="ID_739311392" MODIFIED="1648980274568" TEXT="Tutorials">
-<node CREATED="1636897866171" ID="ID_1225854866" LINK="https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html#sphx-glr-auto-examples-inspection-plot-permutation-importance-multicollinear-py" MODIFIED="1636897880439" TEXT="Collinearity"/>
+<node CREATED="1636897866171" ID="ID_739311392" MODIFIED="1659193443826" TEXT="Tutorials">
+<node CREATED="1636897866171" ID="ID_1225854866" LINK="https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html#sphx-glr-auto-examples-inspection-plot-permutation-importance-multicollinear-py" MODIFIED="1659193447969" TEXT="Collinearity">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636897990317" FOLDED="true" ID="ID_999186498" MODIFIED="1648980274568" TEXT="How to detect it?">
+</node>
+<node CREATED="1636897990317" ID="ID_999186498" MODIFIED="1659193438164" TEXT="How to detect it?">
 <icon BUILTIN="xmag"/>
-<node CREATED="1636897997999" ID="ID_1256512076" LINK="http://nbviewer.jupyter.org/github/ethen8181/machine-learning/blob/master/model_selection/collinearity.ipynb  " MODIFIED="1636898016878" TEXT="VIF = Variance Inflation Factor"/>
+<node CREATED="1636897997999" ID="ID_1256512076" LINK="http://nbviewer.jupyter.org/github/ethen8181/machine-learning/blob/master/model_selection/collinearity.ipynb  " MODIFIED="1659193442602" TEXT="VIF = Variance Inflation Factor">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1659193450486" ID="ID_149389219" LINK="https://statisticalhorizons.com/multicollinearity/" MODIFIED="1659193476393" TEXT="When you can ignore it?">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node CREATED="1637940831237" ID="ID_1339283201" LINK="https://scikit-learn.org/stable/auto_examples/neural_networks/plot_mnist_filters.html#sphx-glr-auto-examples-neural-networks-plot-mnist-filters-py" MODIFIED="1637940901193" TEXT="Weights visualiation">
@@ -4760,6 +4767,57 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1645364456801" ID="ID_388361476" MODIFIED="1645364464862" TEXT="Sampling for real-world diversity">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node CREATED="1660373209138" ID="ID_1872906847" LINK="https://www.datacamp.com/tutorial/comprehensive-introduction-graph-neural-networks-gnns-tutorial" MODIFIED="1660373292986" POSITION="left" TEXT="Graph Neural Networks">
+<icon BUILTIN="xmag"/>
+<node CREATED="1660373297744" ID="ID_1408266907" MODIFIED="1660570240984" TEXT="Types">
+<icon BUILTIN="xmag"/>
+<node CREATED="1660373312545" ID="ID_91811780" MODIFIED="1660570248418" TEXT="Graph Convolutional Networks (GCNs)">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373323807" ID="ID_272201896" MODIFIED="1660570248418" TEXT="Graph Auto-Encoder Networks ">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373333007" ID="ID_1283462800" MODIFIED="1660570248417" TEXT="Recurrent Graph Neural Networks(RGNNs)">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373355697" ID="ID_468024836" MODIFIED="1660570248416" TEXT="Gated Graph Neural Networks (GGNNs)">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1660373442999" ID="ID_715081405" MODIFIED="1660570332904" TEXT="Task">
+<icon BUILTIN="xmag"/>
+<node CREATED="1660373448828" ID="ID_266777645" MODIFIED="1660570255350" TEXT="Graph Classification">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373463045" ID="ID_330161383" MODIFIED="1660570255350" TEXT="Node Classification">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373476816" ID="ID_833622940" MODIFIED="1660570255349" TEXT="Link Prediction">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373495565" ID="ID_410334153" MODIFIED="1660570255349" TEXT="Community Detection">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373527863" ID="ID_34160504" MODIFIED="1660570255348" TEXT="Graph Embedding">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660373534827" ID="ID_1834119988" MODIFIED="1660570255348" TEXT="Graph Generation">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1660570329373" ID="ID_1586585383" LINK="https://www.datacamp.com/tutorial/comprehensive-introduction-graph-neural-networks-gnns-tutorial" MODIFIED="1660570399399" TEXT="Issues">
+<icon BUILTIN="xmag"/>
+<node CREATED="1660570341229" ID="ID_1525588758" MODIFIED="1660570394049" TEXT="shallow NNs">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660570372626" ID="ID_399468295" MODIFIED="1660570394050" TEXT="not scalable">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660570390602" ID="ID_1540834005" MODIFIED="1660570923247" TEXT="graph structures are constantly changing">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>

@@ -8,5 +8,8 @@ See [this](https://en.wikipedia.org/wiki/FreeMind#cite_note-1) Wikipedia article
 - This can be downloaded directly from (MacOS) [SourceForge](https://sourceforge.net/projects/freemind/)
 - My FreeMind map does not render well in **macOS Monterey**. Read this [blog](https://rosshall.online/writing/how-to-fix-freemind-after-macos-monterey-update/) to fix this issue.
 
+## Other similar resources
+- [Interative ML map focused on math](https://app.learney.me/)
+
 ## A screenshot of the mind map
 ![ScreenShot](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map/blob/main/image.png)
