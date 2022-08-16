@@ -762,11 +762,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1659021462650" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
+<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1660643926817" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612333322979" FOLDED="true" ID="ID_973238121" MODIFIED="1647711629436" TEXT="Gradient-based">
+<node CREATED="1612333322979" FOLDED="true" ID="ID_973238121" MODIFIED="1660643879317" TEXT="Gradient-based">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612539003578" FOLDED="true" ID="ID_1743243600" MODIFIED="1645364396488" TEXT="From classical optimisation">
@@ -801,7 +801,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1613231174047" FOLDED="true" ID="ID_1970766977" MODIFIED="1645364396488" TEXT="Specific to ML ">
+<node CREATED="1613231174047" ID="ID_1970766977" MODIFIED="1660643749419" TEXT="Specific to ML ">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613231229766" ID="ID_278381648" LINK="https://machinelearningmastery.com/gradient-descent-with-adagrad-from-scratch/" MODIFIED="1636472619621" TEXT="AdaGrad - Adaptive Gradient">
@@ -830,8 +830,10 @@
 <node CREATED="1636472464192" ID="ID_616339469" LINK="https://machinelearningmastery.com/gradient-descent-optimization-with-adamax-from-scratch/" MODIFIED="1636472473744" TEXT="AdaMax">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636472537501" ID="ID_1073265383" LINK="https://machinelearningmastery.com/gradient-descent-optimization-with-amsgrad-from-scratch/" MODIFIED="1636472573969" TEXT="AMSGrad">
+<node CREATED="1636472537501" ID="ID_1073265383" MODIFIED="1660643848319" TEXT="AMSGrad">
 <icon BUILTIN="button_ok"/>
+<node CREATED="1660643773023" ID="ID_531188540" LINK="https://arxiv.org/pdf/1904.09237.pdf" MODIFIED="1660643808553" TEXT="Paper"/>
+<node CREATED="1660643812833" ID="ID_1065413490" LINK="https://machinelearningmastery.com/gradient-descent-optimization-with-amsgrad-from-scratch/" MODIFIED="1660643836734" TEXT="Tutorial"/>
 </node>
 </node>
 <node CREATED="1613291711922" FOLDED="true" ID="ID_285053714" MODIFIED="1645364396489" TEXT="How often you update weights">
@@ -907,7 +909,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612333345859" ID="ID_1301555161" MODIFIED="1659021349104" TEXT="Learning rate">
+<node CREATED="1612333345859" FOLDED="true" ID="ID_1301555161" MODIFIED="1660643743263" TEXT="Learning rate">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1612539064893" ID="ID_373125009" MODIFIED="1636466423874" TEXT="1">
@@ -3100,7 +3102,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636215513060" FOLDED="true" ID="ID_1330052249" MODIFIED="1659021343788" POSITION="left" TEXT="Donts">
+<node CREATED="1636215513060" FOLDED="true" ID="ID_1330052249" MODIFIED="1660643917340" POSITION="left" TEXT="Donts">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636215521608" ID="ID_1760363741" LINK="https://machinelearningmastery.com/batch-normalization-for-training-of-deep-neural-networks/" MODIFIED="1636466423858" TEXT="Don&apos;t use dropout with batch normalisation">
@@ -3238,7 +3240,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612527812460" FOLDED="true" HGAP="21" ID="ID_1716987998" MODIFIED="1660373139667" POSITION="right" TEXT="Training tuning " VSHIFT="-3">
+<node CREATED="1612527812460" HGAP="21" ID="ID_1716987998" MODIFIED="1660643928222" POSITION="right" TEXT="Training tuning " VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612542290952" FOLDED="true" ID="ID_422000392" MODIFIED="1647711629455" TEXT="Data splitting">
@@ -3432,7 +3434,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612540729518" FOLDED="true" ID="ID_718562011" MODIFIED="1647711629456" TEXT="Bias &amp; Variant">
+<node CREATED="1612540729518" FOLDED="true" ID="ID_718562011" MODIFIED="1660644182970" TEXT="Bias &amp; Variant">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612540737756" ID="ID_862407560" MODIFIED="1636466423856" TEXT="Low variance &amp; High bias">
@@ -3452,7 +3454,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612868688246" FOLDED="true" ID="ID_24516477" MODIFIED="1647711629456" TEXT="Transfer learning ">
+<node CREATED="1612868688246" FOLDED="true" ID="ID_24516477" MODIFIED="1660644179937" TEXT="Transfer learning ">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612869428603" FOLDED="true" ID="ID_789377258" MODIFIED="1645364396511" TEXT="Approaches">
@@ -3488,7 +3490,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636215629406" FOLDED="true" ID="ID_1122859346" MODIFIED="1659021475749" TEXT="Accelerators">
+<node CREATED="1636215629406" FOLDED="true" ID="ID_1122859346" MODIFIED="1660644176253" TEXT="Accelerators">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636215640911" ID="ID_1423636292" LINK="https://machinelearningmastery.com/batch-normalization-for-training-of-deep-neural-networks/" MODIFIED="1636466423855" TEXT="Batch normalisation">
@@ -3496,7 +3498,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1659021482575" FOLDED="true" ID="ID_619471846" LINK="https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" MODIFIED="1660373138116" TEXT="Learnig rate">
+<node CREATED="1659021482575" FOLDED="true" ID="ID_619471846" LINK="https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" MODIFIED="1660644185870" TEXT="Learnig rate">
 <icon BUILTIN="xmag"/>
 <node CREATED="1659021539786" ID="ID_152665066" MODIFIED="1659022006248" TEXT="Underfit Learning Curves">
 <icon BUILTIN="button_ok"/>
@@ -3512,6 +3514,27 @@
 </node>
 <node CREATED="1659021678694" ID="ID_1046498108" MODIFIED="1659022006252" TEXT="Unrepresentative Validation Dataset">
 <icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1660643939425" ID="ID_1802661268" MODIFIED="1660643985516" TEXT="How to combat overfitting">
+<icon BUILTIN="xmag"/>
+<node CREATED="1660643965740" ID="ID_951109000" MODIFIED="1660643989449" TEXT="Lower the learning rate">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660644117722" ID="ID_1346077901" MODIFIED="1660644140535" TEXT="Make sure the train set is representative of the test set (or viceversa)">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660644164632" ID="ID_1499491907" MODIFIED="1660644170618" TEXT="Dropout">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660644264256" ID="ID_495318328" MODIFIED="1660644418205" TEXT="Regularisation">
+<icon BUILTIN="xmag"/>
+<node CREATED="1660644395031" ID="ID_395552130" MODIFIED="1660644411306" TEXT="L1 = lasso">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1660644404482" ID="ID_1821809557" MODIFIED="1660644411307" TEXT="L2 = ridge">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 </node>
@@ -4771,7 +4794,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1660373209138" ID="ID_1872906847" LINK="https://www.datacamp.com/tutorial/comprehensive-introduction-graph-neural-networks-gnns-tutorial" MODIFIED="1660373292986" POSITION="left" TEXT="Graph Neural Networks">
+<node CREATED="1660373209138" FOLDED="true" ID="ID_1872906847" LINK="https://www.datacamp.com/tutorial/comprehensive-introduction-graph-neural-networks-gnns-tutorial" MODIFIED="1660643733981" POSITION="left" TEXT="Graph Neural Networks">
 <icon BUILTIN="xmag"/>
 <node CREATED="1660373297744" ID="ID_1408266907" MODIFIED="1660570240984" TEXT="Types">
 <icon BUILTIN="xmag"/>
