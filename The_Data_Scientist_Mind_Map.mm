@@ -3,7 +3,7 @@
 <node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1659198512663" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1658853791851" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="227">
+<node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1661109564520" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="231">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -28,7 +28,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612104951982" FOLDED="true" HGAP="19" ID="ID_485616531" MODIFIED="1648979481414" POSITION="right" TEXT="Post-Processing" VSHIFT="8">
+<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1661109551979" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -762,7 +762,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1660643926817" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
+<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1661109920053" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -950,11 +950,12 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636473525921" FOLDED="true" ID="ID_1961861650" MODIFIED="1647711629438" TEXT="Backpropagation">
+<node CREATED="1636473525921" FOLDED="true" ID="ID_1961861650" MODIFIED="1661109918665" TEXT="Backpropagation">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636473544182" ID="ID_910856162" LINK="https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/" MODIFIED="1636473570214" TEXT="Implementation No1">
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1661109605470" ID="ID_1631940980" LINK="https://www.youtube.com/watch?v=VMj-3S1tku0" MODIFIED="1661109621717" TEXT="Video tutorials"/>
 </node>
 </node>
 <node CREATED="1612283288430" FOLDED="true" ID="ID_1858721446" MODIFIED="1648980782100" POSITION="left" TEXT="Ensemble Methods">
@@ -1884,7 +1885,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612465386148" FOLDED="true" ID="ID_1115435963" MODIFIED="1661109316874" POSITION="left" TEXT="ANNs">
+<node CREATED="1612465386148" FOLDED="true" ID="ID_1115435963" MODIFIED="1661110495873" POSITION="left" TEXT="ANNs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612465397392" FOLDED="true" ID="ID_882354062" LINK="https://arxiv.org/pdf/2105.04026.pdf" MODIFIED="1647711629447" TEXT="activation functions">
@@ -4020,7 +4021,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1660904947789" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" HGAP="28" ID="ID_1476128782" MODIFIED="1661110500320" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4081,10 +4082,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612517454615" FOLDED="true" HGAP="18" ID="ID_276803807" MODIFIED="1647711629463" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
+<node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1661110502749" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1645364396516" TEXT="Applications">
+<node CREATED="1612517471274" ID="ID_1459739048" MODIFIED="1661110596698" TEXT="Applications">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517483755" ID="ID_1232708660" MODIFIED="1636466423853" TEXT="Chatbots">
@@ -4121,6 +4122,15 @@
 </node>
 <node CREATED="1612517833684" ID="ID_153536209" MODIFIED="1636466423853" TEXT="NLG = Natural Language Generation">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661110605606" ID="ID_1270079275" MODIFIED="1661110683826" TEXT="Named entity recognition">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661110623831" ID="ID_1675306695" MODIFIED="1661110680354" TEXT="Topic modelling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661110635803" ID="ID_30691178" MODIFIED="1661110680355" TEXT="Summarisation">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
