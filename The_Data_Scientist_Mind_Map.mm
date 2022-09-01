@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1659198512663" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1661462219157" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1661109564520" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="231">
@@ -28,11 +28,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1661109551979" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
+<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1661462217907" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612250428847" FOLDED="true" HGAP="22" ID="ID_1626592347" MODIFIED="1648979480224" TEXT="Evaluation Metrics" VSHIFT="-55">
+<node CREATED="1612250428847" HGAP="22" ID="ID_1626592347" MODIFIED="1661462209141" TEXT="Evaluation Metrics" VSHIFT="-55">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -128,7 +128,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612533874577" FOLDED="true" ID="ID_306865511" MODIFIED="1648979479625" TEXT="Clustering">
+<node CREATED="1612533874577" ID="ID_306865511" MODIFIED="1661462210891" TEXT="Clustering">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612533886402" ID="ID_708279514" MODIFIED="1636466423879" TEXT="Silhouette score">
@@ -154,7 +154,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1661109319578" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
+<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1661632067023" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -327,7 +327,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612427760980" ID="ID_794174381" MODIFIED="1660905018777" TEXT="Feature Engineering">
+<node CREATED="1612427760980" FOLDED="true" ID="ID_794174381" MODIFIED="1661632063556" TEXT="Feature Engineering">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636386169219" ID="ID_258746187" LINK="https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning/" MODIFIED="1636466423877" TEXT="Polynomial Feature Transforms">
@@ -704,7 +704,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636190631851" FOLDED="true" ID="ID_1794098582" LINK="https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623  " MODIFIED="1647711629435" TEXT="Outliers Detection">
+<node CREATED="1636190631851" ID="ID_1794098582" LINK="https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623  " MODIFIED="1661462223524" TEXT="Outliers Detection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636190645320" ID="ID_456108943" MODIFIED="1636466423876" TEXT="Isolation Forest">
@@ -729,8 +729,8 @@
 <node CREATED="1636894320778" ID="ID_1361135298" MODIFIED="1636894360559" TEXT="Interquantile">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636894327815" ID="ID_90912922" MODIFIED="1636894360560" TEXT="DBScan">
-<icon BUILTIN="button_ok"/>
+<node CREATED="1636894327815" ID="ID_90912922" MODIFIED="1661462243605" TEXT="DBScan">
+<icon BUILTIN="xmag"/>
 </node>
 <node CREATED="1636894333770" ID="ID_1728789424" MODIFIED="1636894360560" TEXT="Boxplots">
 <icon BUILTIN="button_ok"/>
@@ -762,7 +762,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1661109920053" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
+<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1661689057953" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -950,7 +950,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636473525921" FOLDED="true" ID="ID_1961861650" MODIFIED="1661109918665" TEXT="Backpropagation">
+<node CREATED="1636473525921" ID="ID_1961861650" LINK="https://theorydish.blog/2021/12/16/backpropagation-%E2%89%A0-chain-rule/" MODIFIED="1661632100945" TEXT="Backpropagation">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636473544182" ID="ID_910856162" LINK="https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/" MODIFIED="1636473570214" TEXT="Implementation No1">
 <icon BUILTIN="button_ok"/>
@@ -1152,7 +1152,7 @@
 </node>
 <node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
-<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1658938473457" POSITION="left" TEXT="Types of Machine Learning">
+<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1661632060289" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1440,11 +1440,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612426314277" FOLDED="true" ID="ID_1026946604" MODIFIED="1647711629442" TEXT="Unsupervised">
+<node CREATED="1612426314277" ID="ID_1026946604" MODIFIED="1661462391304" TEXT="Unsupervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612426377248" FOLDED="true" ID="ID_1932593921" MODIFIED="1645364396493" TEXT="via Clustering">
+<node CREATED="1612426377248" ID="ID_1932593921" MODIFIED="1661462394098" TEXT="via Clustering">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1503,6 +1503,9 @@
 <node CREATED="1613135141531" ID="ID_1506994641" MODIFIED="1636466423869" TEXT="DBSCAN =  Density-Based Spatial Clustering with Noise">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1661462228853" ID="ID_1522980368" LINK="https://www.kdnuggets.com/2022/08/implementing-dbscan-python.html" MODIFIED="1661462262696" TEXT="Tutorial #1">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1613136755676" ID="ID_1490868130" MODIFIED="1636466423869" TEXT="OPTICS = Ordering Points To Identify the Clustering Structure">
 <font NAME="SansSerif" SIZE="12"/>
@@ -2527,7 +2530,7 @@
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
-<node CREATED="1636209570623" FOLDED="true" ID="ID_868462032" MODIFIED="1648368621729" POSITION="left" TEXT="Step-by-Step Model Creation">
+<node CREATED="1636209570623" FOLDED="true" ID="ID_868462032" MODIFIED="1661462092303" POSITION="left" TEXT="Step-by-Step Model Creation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612528292767" FOLDED="true" ID="ID_723402375" MODIFIED="1647711629449" TEXT="ML phylosophy">
@@ -3221,10 +3224,10 @@
 <node CREATED="1637933856452" ID="ID_83105905" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/inverse_propensity_weighting.ipynb" MODIFIED="1637933867531" TEXT="inverse propensity weighting"/>
 <node CREATED="1637933957645" ID="ID_925514843" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/matching.ipynb" MODIFIED="1637933970214" TEXT="Matching"/>
 </node>
-<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1660373207934" POSITION="left" TEXT="Data">
+<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1662010267257" POSITION="left" TEXT="Data">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1647711659338" FOLDED="true" ID="ID_515022280" MODIFIED="1648368619520" TEXT="Where is it coming from?">
+<node CREATED="1647711659338" ID="ID_515022280" MODIFIED="1661689168401" TEXT="Where is it coming from?">
 <icon BUILTIN="xmag"/>
 <node CREATED="1647711698338" ID="ID_1448069326" MODIFIED="1647711745014" TEXT="Transactional">
 <icon BUILTIN="button_ok"/>
@@ -3248,6 +3251,24 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1647711736020" ID="ID_298363537" MODIFIED="1647711745018" TEXT="Social media">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1661689176820" ID="ID_1048945982" MODIFIED="1661689184633" TEXT="5 Vs">
+<icon BUILTIN="xmag"/>
+<node CREATED="1661689187125" ID="ID_434751258" MODIFIED="1661689205822" TEXT="Volume">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661689190434" ID="ID_149735249" MODIFIED="1661689205823" TEXT="Velocity">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661689194099" ID="ID_1347286685" MODIFIED="1661689205823" TEXT="Variety">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661689197836" ID="ID_717477646" MODIFIED="1661689205823" TEXT="Veracity">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1661689200015" ID="ID_857555610" MODIFIED="1661689205824" TEXT="Value">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -4021,7 +4042,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1661284064292" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" HGAP="28" ID="ID_1476128782" MODIFIED="1662010492217" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4082,10 +4103,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612517454615" FOLDED="true" HGAP="18" ID="ID_276803807" MODIFIED="1661284062643" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
+<node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1662010494337" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612517471274" ID="ID_1459739048" MODIFIED="1661110596698" TEXT="Applications">
+<node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1662010497696" TEXT="Applications">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517483755" ID="ID_1232708660" MODIFIED="1636466423853" TEXT="Chatbots">
@@ -4137,12 +4158,18 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612518261813" FOLDED="true" ID="ID_1416450468" MODIFIED="1645364396516" TEXT="Common architectures">
+<node CREATED="1612518261813" ID="ID_1416450468" MODIFIED="1662010499348" TEXT="Common architectures">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518694601" ID="ID_1303522755" MODIFIED="1636466423853" TEXT="Transformer">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1662010523520" ID="ID_1059667743" LINK="What is Attention?" MODIFIED="1662010592684" TEXT="Attention">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662010529753" ID="ID_1007078362" LINK="https://machinelearningmastery.com/the-attention-mechanism-from-scratch/" MODIFIED="1662010553494" TEXT="Simple attention example in python">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
 </node>
 <node CREATED="1612518756235" ID="ID_98066544" MODIFIED="1636466423853" TEXT="Transformer-XL">
 <font NAME="SansSerif" SIZE="12"/>
@@ -4165,7 +4192,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612518955080" FOLDED="true" ID="ID_254359247" MODIFIED="1645364396516" TEXT="Common algorithms">
+<node CREATED="1612518955080" FOLDED="true" ID="ID_254359247" MODIFIED="1662010505663" TEXT="Common algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518966038" FOLDED="true" ID="ID_644203872" MODIFIED="1645364396209" TEXT="BoW = Bag of Words">
@@ -4252,7 +4279,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612518864012" FOLDED="true" ID="ID_656168054" MODIFIED="1645364396517" TEXT="Preprocessing">
+<node CREATED="1612518864012" FOLDED="true" ID="ID_656168054" MODIFIED="1662010507395" TEXT="Preprocessing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518871327" ID="ID_976508276" MODIFIED="1636466423852" TEXT="Lowercasing">
@@ -4889,6 +4916,12 @@
 <node CREATED="1660570390602" ID="ID_1540834005" MODIFIED="1660570923247" TEXT="graph structures are constantly changing">
 <icon BUILTIN="button_ok"/>
 </node>
+</node>
+</node>
+<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1662010489695" POSITION="left" TEXT="NewBie">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662010364763" ID="ID_342871496" LINK="https://www.kdnuggets.com/2022/08/complete-data-science-study-roadmap.html" MODIFIED="1662010392654" TEXT="The Complete Data Science Study Roadmap">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
