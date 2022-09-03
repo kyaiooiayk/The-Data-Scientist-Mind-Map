@@ -154,7 +154,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1661632067023" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
+<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1662195960462" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -327,7 +327,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612427760980" FOLDED="true" ID="ID_794174381" MODIFIED="1661632063556" TEXT="Feature Engineering">
+<node CREATED="1612427760980" ID="ID_794174381" MODIFIED="1662194105521" TEXT="Feature Engineering">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636386169219" ID="ID_258746187" LINK="https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning/" MODIFIED="1636466423877" TEXT="Polynomial Feature Transforms">
@@ -704,7 +704,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636190631851" ID="ID_1794098582" LINK="https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623  " MODIFIED="1661462223524" TEXT="Outliers Detection">
+<node CREATED="1636190631851" FOLDED="true" ID="ID_1794098582" LINK="https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623  " MODIFIED="1662194099450" TEXT="Outliers Detection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636190645320" ID="ID_456108943" MODIFIED="1636466423876" TEXT="Isolation Forest">
@@ -739,14 +739,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636304399415" ID="ID_1919328023" MODIFIED="1658939506935" TEXT="Transform Target Variable">
+<node CREATED="1636304399415" FOLDED="true" ID="ID_1919328023" MODIFIED="1662194101250" TEXT="Transform Target Variable">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636304456317" ID="ID_1804824970" LINK="https://machinelearningmastery.com/how-to-transform-target-variables-for-regression-with-scikit-learn/" MODIFIED="1636466423875" TEXT="Regression Problem">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1636876762331" ID="ID_811091802" MODIFIED="1658939509652" TEXT="Quantization">
+<node CREATED="1636876762331" FOLDED="true" ID="ID_811091802" MODIFIED="1662194102683" TEXT="Quantization">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636876785143" ID="ID_1825696102" MODIFIED="1658939512003" TEXT="Tutorials">
 <icon BUILTIN="xmag"/>
@@ -1787,10 +1787,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1636465181368" FOLDED="true" ID="ID_1526133273" MODIFIED="1648368621727" POSITION="left" TEXT="Model Selection">
+<node CREATED="1636465181368" ID="ID_1526133273" MODIFIED="1662196074185" POSITION="left" TEXT="Model Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612464400658" FOLDED="true" ID="ID_791053873" MODIFIED="1647711629444" TEXT="Cross-validation">
+<node CREATED="1612464400658" ID="ID_791053873" MODIFIED="1662196078270" TEXT="Cross-validation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612464416052" ID="ID_762844233" MODIFIED="1636466423868" TEXT="holdout method">
@@ -1832,13 +1832,25 @@
 <node CREATED="1636464127344" ID="ID_602698158" LINK="https://machinelearningmastery.com/nested-cross-validation-for-machine-learning-with-python/" MODIFIED="1636466423867" TEXT="Nested CV">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1636556651235" ID="ID_44573390" MODIFIED="1636556657820" TEXT="Stratified CV"/>
-<node CREATED="1636556725524" ID="ID_481401514" MODIFIED="1636556742044" TEXT="Stratified Shuffle Split"/>
-<node CREATED="1636556671116" ID="ID_1098821603" MODIFIED="1636556674469" TEXT="Group CV"/>
-<node CREATED="1636556690499" ID="ID_1274246729" MODIFIED="1636556710997" TEXT="Group Shuffle Split"/>
-<node CREATED="1636556681301" ID="ID_245021485" MODIFIED="1636556689726" TEXT="Shuffle Split CV"/>
-<node CREATED="1636556811651" ID="ID_478622302" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_cv_indices.html#sphx-glr-auto-examples-model-selection-plot-cv-indices-py" MODIFIED="1636556821538" TEXT="Comparison"/>
-<node CREATED="1614093244377" FOLDED="true" ID="ID_276136530" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html#sphx-glr-auto-examples-model-selection-plot-nested-cross-validation-iris-py" MODIFIED="1645364396500" TEXT="Type">
+<node CREATED="1636556651235" ID="ID_44573390" MODIFIED="1662196164467" TEXT="Stratified CV">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636556725524" ID="ID_481401514" MODIFIED="1662196164467" TEXT="Stratified Shuffle Split">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636556671116" ID="ID_1098821603" MODIFIED="1662196164466" TEXT="Group CV">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636556690499" ID="ID_1274246729" MODIFIED="1662196164466" TEXT="Group Shuffle Split">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636556681301" ID="ID_245021485" MODIFIED="1662196164465" TEXT="Shuffle Split CV">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636556811651" ID="ID_478622302" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_cv_indices.html#sphx-glr-auto-examples-model-selection-plot-cv-indices-py" MODIFIED="1662196164465" TEXT="Comparison">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1614093244377" ID="ID_276136530" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html#sphx-glr-auto-examples-model-selection-plot-nested-cross-validation-iris-py" MODIFIED="1662196094565" TEXT="Type">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1614093254699" ID="ID_201685910" MODIFIED="1636466423856" TEXT="Nested">
@@ -1850,8 +1862,20 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1662196096929" ID="ID_978643003" MODIFIED="1662196115997" TEXT="CV for financial data">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662196118789" ID="ID_4098084" MODIFIED="1662196149597" TEXT="Purging">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636555811149" FOLDED="true" ID="ID_1393149412" MODIFIED="1647711629445" TEXT="Test/Train Split">
+<node CREATED="1662196131721" ID="ID_1717186311" MODIFIED="1662196149598" TEXT="Embargoing">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662196134482" ID="ID_815899208" MODIFIED="1662196149598" TEXT="Cobinatorial CV">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node CREATED="1636555811149" ID="ID_1393149412" MODIFIED="1662196078271" TEXT="Test/Train Split">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636555834794" ID="ID_3770625" MODIFIED="1636555860554" TEXT="Once">
 <icon BUILTIN="button_ok"/>
@@ -1863,7 +1887,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636464708870" FOLDED="true" ID="ID_1256127273" LINK="https://machinelearningmastery.com/probabilistic-model-selection-measures/" MODIFIED="1647711629445" TEXT="Model Selection">
+<node CREATED="1636464708870" ID="ID_1256127273" LINK="https://machinelearningmastery.com/probabilistic-model-selection-measures/" MODIFIED="1662196078273" TEXT="Model Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636464722569" ID="ID_714499725" MODIFIED="1636466423867" TEXT="Akaike Information Criterion = AIC ">
@@ -1879,7 +1903,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636525689878" FOLDED="true" ID="ID_1967544849" MODIFIED="1647711629445" TEXT="Auto-Tool">
+<node CREATED="1636525689878" ID="ID_1967544849" MODIFIED="1662196078274" TEXT="Auto-Tool">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636525703625" FOLDED="true" ID="ID_1381546126" MODIFIED="1645364396500" TEXT="AutoKeras">
 <icon BUILTIN="xmag"/>
@@ -2530,7 +2554,7 @@
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
-<node CREATED="1636209570623" FOLDED="true" ID="ID_868462032" MODIFIED="1661462092303" POSITION="left" TEXT="Step-by-Step Model Creation">
+<node CREATED="1636209570623" FOLDED="true" ID="ID_868462032" MODIFIED="1662196049598" POSITION="left" TEXT="Step-by-Step Model Creation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612528292767" FOLDED="true" ID="ID_723402375" MODIFIED="1647711629449" TEXT="ML phylosophy">
@@ -2721,7 +2745,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612466068112" FOLDED="true" ID="ID_153421017" MODIFIED="1647711629451" TEXT="Modelling">
+<node CREATED="1612466068112" ID="ID_153421017" MODIFIED="1662195982584" TEXT="Modelling">
 <edge COLOR="#333333" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -2952,7 +2976,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612466271273" FOLDED="true" ID="ID_1444284866" MODIFIED="1645364396507" TEXT="Spot checking algorithms">
+<node CREATED="1612466271273" ID="ID_1444284866" MODIFIED="1662195982586" TEXT="Spot checking algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1612603246891" ID="ID_1044693331" MODIFIED="1636466423859" TEXT="create cross validation">
 <font NAME="SansSerif" SIZE="12"/>
@@ -3100,7 +3124,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612466074555" FOLDED="true" ID="ID_1982715811" MODIFIED="1647711629452" TEXT="Post-Processing" VSHIFT="-8">
+<node CREATED="1612466074555" FOLDED="true" ID="ID_1982715811" MODIFIED="1662195976229" TEXT="Post-Processing" VSHIFT="-8">
 <edge COLOR="#333333" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -3571,7 +3595,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1658939566235" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1662195957279" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -3875,7 +3899,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612529252034" FOLDED="true" ID="ID_1875024214" MODIFIED="1648368619533" TEXT="Correlation">
+<node CREATED="1612529252034" ID="ID_1875024214" MODIFIED="1662194118964" TEXT="Correlation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529260453" ID="ID_454912434" MODIFIED="1636879170816" TEXT="Non-parametric">
@@ -4042,7 +4066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" HGAP="28" ID="ID_1476128782" MODIFIED="1662010492217" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1662194092334" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4612,7 +4636,7 @@
 </node>
 <node CREATED="1649488446197" ID="ID_847801389" LINK=" https://www.kdnuggets.com/2022/04/uncertainty-quantification-artificial-intelligencebased-systems.html" MODIFIED="1649488471012" TEXT="Forward and Inverse Uncertainty"/>
 </node>
-<node CREATED="1636876452134" FOLDED="true" HGAP="18" ID="ID_83284660" LINK="https://queue.acm.org/detail.cfm?id=3466134" MODIFIED="1648368621736" POSITION="right" TEXT="Biases" VSHIFT="-7">
+<node CREATED="1636876452134" FOLDED="true" HGAP="18" ID="ID_83284660" LINK="https://queue.acm.org/detail.cfm?id=3466134" MODIFIED="1662196063365" POSITION="right" TEXT="Biases" VSHIFT="-7">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636876512976" ID="ID_1939898094" MODIFIED="1636876616364" TEXT="Volunteer bias">
