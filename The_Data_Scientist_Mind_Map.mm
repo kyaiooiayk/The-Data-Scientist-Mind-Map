@@ -1787,7 +1787,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636465181368" ID="ID_1526133273" MODIFIED="1662196074185" POSITION="left" TEXT="Model Selection">
+<node CREATED="1636465181368" FOLDED="true" ID="ID_1526133273" MODIFIED="1662361448820" POSITION="left" TEXT="Model Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612464400658" ID="ID_791053873" MODIFIED="1662196078270" TEXT="Cross-validation">
@@ -4066,7 +4066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1662194092334" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1662402501830" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4130,7 +4130,7 @@
 <node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1662010494337" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1662010497696" TEXT="Applications">
+<node CREATED="1612517471274" ID="ID_1459739048" MODIFIED="1662361461783" TEXT="Applications">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517483755" ID="ID_1232708660" MODIFIED="1636466423853" TEXT="Chatbots">
@@ -4216,7 +4216,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612518955080" FOLDED="true" ID="ID_254359247" MODIFIED="1662010505663" TEXT="Common algorithms">
+<node CREATED="1612518955080" ID="ID_254359247" MODIFIED="1662361468397" TEXT="Common algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518966038" FOLDED="true" ID="ID_644203872" MODIFIED="1645364396209" TEXT="BoW = Bag of Words">
@@ -4290,7 +4290,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636297990210" FOLDED="true" ID="ID_1931998928" MODIFIED="1645364396210" TEXT="Search decoding algorithms">
+<node CREATED="1662361493111" ID="ID_1416248511" LINK="https://blog.hubspot.com/marketing/what-is-latent-semantic-indexing-why-does-it-matter-for-your-seo-strategy" MODIFIED="1662361535367" TEXT="Latent Semantic Analysis/Indexing">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636297990210" ID="ID_1931998928" MODIFIED="1662361473755" TEXT="Search decoding algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636298007726" ID="ID_1985811278" LINK="https://machinelearningmastery.com/beam-search-decoder-natural-language-processing/" MODIFIED="1636466423852" TEXT="Greedy Search Decoder">
