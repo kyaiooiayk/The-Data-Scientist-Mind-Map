@@ -762,7 +762,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1661689057953" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
+<node CREATED="1612333251811" HGAP="28" ID="ID_1081658924" MODIFIED="1662709482326" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -934,7 +934,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612333354619" FOLDED="true" ID="ID_567650996" LINK="https://machinelearningmastery.com/gradient-descent-with-momentum-from-scratch/" MODIFIED="1647711629438" TEXT="Momentum">
+<node CREATED="1612333354619" ID="ID_567650996" LINK="https://machinelearningmastery.com/gradient-descent-with-momentum-from-scratch/" MODIFIED="1662709488712" TEXT="Momentum">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612539905887" ID="ID_1334838424" MODIFIED="1636466423874" TEXT="Standard">
@@ -943,6 +943,9 @@
 </node>
 <node CREATED="1612539909856" ID="ID_557181088" LINK="https://machinelearningmastery.com/gradient-descent-with-nesterov-momentum-from-scratch/" MODIFIED="1636472661253" TEXT="Nesterov">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662709506323" ID="ID_416729811" LINK="https://distill.pub/2017/momentum/" MODIFIED="1662709528030" TEXT="How it works">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
