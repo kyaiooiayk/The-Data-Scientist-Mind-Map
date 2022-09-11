@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1661462219157" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1662876234982" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1661109564520" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="231">
@@ -762,7 +762,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612333251811" HGAP="28" ID="ID_1081658924" MODIFIED="1662709482326" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
+<node CREATED="1612333251811" FOLDED="true" HGAP="28" ID="ID_1081658924" MODIFIED="1662876253500" POSITION="right" TEXT="Optimisers" VSHIFT="-4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -893,10 +893,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636298119253" FOLDED="true" ID="ID_1333605333" MODIFIED="1647711629437" TEXT="Bayesian-based">
+<node CREATED="1636298119253" FOLDED="true" ID="ID_1333605333" MODIFIED="1662876252533" TEXT="Bayesian-based">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636298129575" FOLDED="true" ID="ID_72279720" MODIFIED="1645364396489" TEXT="Implementation">
+<node CREATED="1636298129575" ID="ID_72279720" MODIFIED="1662876250400" TEXT="Implementation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636298136580" ID="ID_162970837" LINK="https://machinelearningmastery.com/what-is-bayesian-optimization/" MODIFIED="1636466423875" TEXT="From scratch in python">
@@ -3241,7 +3241,7 @@
 <icon BUILTIN="xmag"/>
 <node CREATED="1636531752079" ID="ID_1011814217" LINK="https://machinelearningmastery.com/sitemap/" MODIFIED="1636531766838" TEXT="Machine Learning Mastery"/>
 </node>
-<node CREATED="1636881145328" FOLDED="true" ID="ID_983109948" MODIFIED="1648368621731" POSITION="left" TEXT="Hypothesis Testing">
+<node CREATED="1636881145328" FOLDED="true" ID="ID_983109948" MODIFIED="1662876221466" POSITION="left" TEXT="Hypothesis Testing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636881154437" ID="ID_739896044" LINK="https://nbviewer.jupyter.org/github/ethen8181/machine-learning/blob/master/bandits/multi_armed_bandits.ipynb  " MODIFIED="1636881216413" TEXT="A/B testing"/>
@@ -3598,7 +3598,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1662195957279" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" HGAP="23" ID="ID_1122699413" MODIFIED="1662876229377" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -3845,7 +3845,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636469143858" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1649488421533" TEXT="Critical Values">
+<node CREATED="1636469143858" FOLDED="true" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1662876232965" TEXT="Critical Values">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636880139113" ID="ID_746270106" MODIFIED="1649488427451" TEXT="Null-hypothesis">
 <icon BUILTIN="button_ok"/>
@@ -4068,8 +4068,39 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1662876267472" ID="ID_1904547463" MODIFIED="1662876292282" TEXT="Bayesian Theorem">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662876296393" ID="ID_1264138494" MODIFIED="1662876329111" TEXT="Frequentist (classical) vs. Bayesian approach"/>
+<node CREATED="1662876330383" ID="ID_1330226120" MODIFIED="1662876348783" TEXT="Approximation methods">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662876352676" ID="ID_1852264717" MODIFIED="1662876464420" TEXT="Quadature approximation">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1662402501830" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1662876377732" ID="ID_356335924" MODIFIED="1662876464421" TEXT="MAP = Maximum A Posteriori estimation">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662876420557" ID="ID_1358164784" MODIFIED="1662876464421" TEXT="Grid approach">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662876428419" ID="ID_558120224" MODIFIED="1662876464421" TEXT="Sampling-based approach">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662877020720" ID="ID_1127588994" MODIFIED="1662877071420" TEXT="MCMC = Markov Chain Monte Carlo">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662876445809" ID="ID_413231736" MODIFIED="1662876464422" TEXT="Gibbs sampler">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662876439769" ID="ID_64212234" MODIFIED="1662876464422" TEXT="Metropolis-Hastings">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1662876449643" ID="ID_1310911370" MODIFIED="1662876464422" TEXT="No U-Turn sampler">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1662822893123" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4130,7 +4161,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1662010494337" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
+<node CREATED="1612517454615" FOLDED="true" HGAP="18" ID="ID_276803807" MODIFIED="1662819198392" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517471274" ID="ID_1459739048" MODIFIED="1662361461783" TEXT="Applications">
@@ -4386,13 +4417,13 @@
 <node CREATED="1613991357921" ID="ID_227947968" MODIFIED="1636466423851" TEXT="Speech">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1612535276350" FOLDED="true" ID="ID_1157971383" MODIFIED="1660904945679" TEXT="Time Series">
+<node CREATED="1612535276350" FOLDED="true" ID="ID_1157971383" MODIFIED="1662822890806" TEXT="Time Series">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612535335631" FOLDED="true" ID="ID_1302153900" MODIFIED="1660726911744" TEXT="Decomposition">
+<node CREATED="1612535335631" ID="ID_1302153900" MODIFIED="1662820131076" TEXT="Decomposition">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612535394534" FOLDED="true" ID="ID_847538569" MODIFIED="1660726911144" TEXT="Systematic">
+<node CREATED="1612535394534" ID="ID_847538569" MODIFIED="1662819217226" TEXT="Systematic">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612535345868" ID="ID_775081046" MODIFIED="1636466423851" TEXT="Level">
@@ -4408,7 +4439,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612535398664" FOLDED="true" ID="ID_259942344" MODIFIED="1660726911144" TEXT="Non-systematic">
+<node CREATED="1612535398664" ID="ID_259942344" MODIFIED="1662819217227" TEXT="Non-systematic">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612535356184" ID="ID_777564468" MODIFIED="1636466423851" TEXT="Noise">
@@ -4417,21 +4448,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1636201141657" ID="ID_770389198" MODIFIED="1660726782135" TEXT="Methods">
+<node CREATED="1636201141657" FOLDED="true" ID="ID_770389198" MODIFIED="1662820129974" TEXT="Methods">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636264705023" ID="ID_256065264" MODIFIED="1636466423851" TEXT="ARMA">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636201156111" ID="ID_303754766" MODIFIED="1648883847305" TEXT="ARIMA">
+<node CREATED="1636201156111" ID="ID_303754766" MODIFIED="1662819217228" TEXT="ARIMA">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201262081" ID="ID_1769741603" LINK="https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/" MODIFIED="1636466423851" TEXT="Code #1">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1636201309182" ID="ID_761214727" MODIFIED="1648883847306" TEXT="SARIMA">
+<node CREATED="1636201309182" ID="ID_761214727" MODIFIED="1662819217228" TEXT="SARIMA">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201444465" ID="ID_168754771" LINK="https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/" MODIFIED="1636466423851" TEXT="Code #1">
@@ -4442,7 +4473,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1648883868093" FOLDED="true" ID="ID_1579156650" LINK="https://facebook.github.io/prophet/" MODIFIED="1660726823010" TEXT="Prophet">
+<node CREATED="1648883868093" ID="ID_1579156650" LINK="https://facebook.github.io/prophet/" MODIFIED="1662819217230" TEXT="Prophet">
 <icon BUILTIN="xmag"/>
 <node CREATED="1648884070684" ID="ID_32442179" LINK="https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/" MODIFIED="1648884103629" TEXT="Tutorial #1">
 <icon BUILTIN="button_ok"/>
@@ -4451,7 +4482,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1648883872843" FOLDED="true" ID="ID_864992223" MODIFIED="1660726831711" TEXT="GLMs">
+<node CREATED="1648883872843" ID="ID_864992223" MODIFIED="1662819217231" TEXT="GLMs">
 <icon BUILTIN="xmag"/>
 <node CREATED="1648884267141" ID="ID_1004305109" LINK="https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a" MODIFIED="1648884278819" TEXT="Tutorial #1">
 <icon BUILTIN="button_ok"/>
@@ -4473,10 +4504,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636201505889" FOLDED="true" ID="ID_40038538" MODIFIED="1660726783677" TEXT="Smoothing">
+<node CREATED="1636201505889" ID="ID_40038538" MODIFIED="1662819216584" TEXT="Smoothing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636201525352" ID="ID_22136238" MODIFIED="1648883839221" TEXT="Triple Exponential Smoothing">
+<node CREATED="1636201525352" ID="ID_22136238" MODIFIED="1662819217232" TEXT="Triple Exponential Smoothing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201552835" ID="ID_1316281576" LINK="https://machinelearningmastery.com/how-to-grid-search-triple-exponential-smoothing-for-time-series-forecasting-in-python/" MODIFIED="1636466423850" TEXT="Code #1">
@@ -4484,10 +4515,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1636201692220" FOLDED="true" ID="ID_10431529" MODIFIED="1660726785677" TEXT="Pre-Processing">
+<node CREATED="1636201692220" FOLDED="true" ID="ID_10431529" MODIFIED="1662819234125" TEXT="Pre-Processing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636201703063" ID="ID_753915711" MODIFIED="1648883834971" TEXT="Remove Seasonality">
+<node CREATED="1636201703063" ID="ID_753915711" MODIFIED="1662819217232" TEXT="Remove Seasonality">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636201722947" ID="ID_228784331" LINK="https://machinelearningmastery.com/time-series-seasonality-with-python/" MODIFIED="1636466423850" TEXT="Code #1">
@@ -4514,7 +4545,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636466147275" FOLDED="true" ID="ID_1242723134" LINK="https://machinelearningmastery.com/handle-long-sequences-long-short-term-memory-recurrent-neural-networks/" MODIFIED="1645364396212" TEXT="Very Long Sequences">
+<node CREATED="1636466147275" ID="ID_1242723134" LINK="https://machinelearningmastery.com/handle-long-sequences-long-short-term-memory-recurrent-neural-networks/" MODIFIED="1662819217235" TEXT="Very Long Sequences">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1636466178902" ID="ID_103708037" MODIFIED="1636466423850" TEXT="Truncate">
@@ -4539,16 +4570,46 @@
 </node>
 </node>
 </node>
-<node CREATED="1636456097664" FOLDED="true" ID="ID_1505655025" MODIFIED="1660726787077" TEXT="Watch-out">
+<node CREATED="1636456097664" ID="ID_1505655025" MODIFIED="1662819216589" TEXT="Watch-out">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636456113415" ID="ID_845510511" LINK="https://machinelearningmastery.com/instability-online-learning-stateful-lstm-time-series-forecasting/" MODIFIED="1636466423849" TEXT="Instability of Online Learning with  LSTM">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1638005688656" ID="ID_1869717547" MODIFIED="1648883824368" TEXT="Tutorials">
+<node CREATED="1638005688656" ID="ID_1869717547" MODIFIED="1662819216590" TEXT="Tutorials">
 <icon BUILTIN="xmag"/>
 <node CREATED="1638005017335" ID="ID_7632253" LINK="https://keras.io/examples/timeseries/timeseries_anomaly_detection/" MODIFIED="1638005671495" TEXT="Autoencoder in KERAS for timeseries anomaly detection via CNN">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1662819239475" ID="ID_1979750041" MODIFIED="1662819281958" TEXT="Stationarity">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662819249183" ID="ID_1779158025" MODIFIED="1662819277208" TEXT="Weak stationarity">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662819257355" ID="ID_1209643484" MODIFIED="1662819277209" TEXT="Strong stationarity">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662819429801" ID="ID_110081285" MODIFIED="1662819453910" TEXT="How to detect">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662819435520" ID="ID_1387782423" MODIFIED="1662819449944" TEXT="By plotting">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662819440773" ID="ID_886496883" MODIFIED="1662819449944" TEXT="By statistical methods">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node CREATED="1662820140583" ID="ID_321537247" MODIFIED="1662820570698" TEXT="Establishing No of lags">
+<icon BUILTIN="xmag"/>
+<node CREATED="1662820175550" ID="ID_534956832" MODIFIED="1662820673273" TEXT="ACF = Autocorrelation Function">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662820177739" ID="ID_445342200" MODIFIED="1662820661400" TEXT="PACF = Partial Autocorrelation Function">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662820180304" ID="ID_1517397465" MODIFIED="1662820580530" TEXT="AIC = Aikake information criteria">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -4948,7 +5009,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1662010489695" POSITION="left" TEXT="NewBie">
+<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1662876226399" POSITION="left" TEXT="NewBie">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662010364763" ID="ID_342871496" LINK="https://www.kdnuggets.com/2022/08/complete-data-science-study-roadmap.html" MODIFIED="1662010392654" TEXT="The Complete Data Science Study Roadmap">
 <icon BUILTIN="button_ok"/>
