@@ -3598,7 +3598,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" HGAP="23" ID="ID_1122699413" MODIFIED="1662876229377" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1662914547154" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -3902,7 +3902,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612529252034" ID="ID_1875024214" MODIFIED="1662194118964" TEXT="Correlation">
+<node CREATED="1612529252034" FOLDED="true" ID="ID_1875024214" MODIFIED="1662914545755" TEXT="Correlation">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529260453" ID="ID_454912434" MODIFIED="1636879170816" TEXT="Non-parametric">
@@ -4068,9 +4068,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1662876267472" ID="ID_1904547463" MODIFIED="1662876292282" TEXT="Bayesian Theorem">
+<node CREATED="1662876267472" FOLDED="true" ID="ID_1904547463" MODIFIED="1662914543223" TEXT="Bayesian Theorem" VSHIFT="17">
 <icon BUILTIN="xmag"/>
-<node CREATED="1662876296393" ID="ID_1264138494" MODIFIED="1662876329111" TEXT="Frequentist (classical) vs. Bayesian approach"/>
+<node CREATED="1662876296393" ID="ID_1264138494" MODIFIED="1662882704724" TEXT="Frequentist (classical) vs. Bayesian approach">
+<icon BUILTIN="button_ok"/>
+</node>
 <node CREATED="1662876330383" ID="ID_1330226120" MODIFIED="1662876348783" TEXT="Approximation methods">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662876352676" ID="ID_1852264717" MODIFIED="1662876464420" TEXT="Quadature approximation">
@@ -4100,7 +4102,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1662822893123" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" HGAP="28" ID="ID_1476128782" MODIFIED="1663185607738" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4161,10 +4163,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612517454615" FOLDED="true" HGAP="18" ID="ID_276803807" MODIFIED="1662819198392" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
+<node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1663185609603" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612517471274" ID="ID_1459739048" MODIFIED="1662361461783" TEXT="Applications">
+<node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1663159372650" TEXT="Applications">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517483755" ID="ID_1232708660" MODIFIED="1636466423853" TEXT="Chatbots">
@@ -4216,7 +4218,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612518261813" ID="ID_1416450468" MODIFIED="1662010499348" TEXT="Common architectures">
+<node CREATED="1612518261813" ID="ID_1416450468" MODIFIED="1663185618738" TEXT="Common architectures">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518694601" ID="ID_1303522755" MODIFIED="1636466423853" TEXT="Transformer">
@@ -4225,6 +4227,9 @@
 <node CREATED="1662010523520" ID="ID_1059667743" LINK="What is Attention?" MODIFIED="1662010592684" TEXT="Attention">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662010529753" ID="ID_1007078362" LINK="https://machinelearningmastery.com/the-attention-mechanism-from-scratch/" MODIFIED="1662010553494" TEXT="Simple attention example in python">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663185624041" ID="ID_657892446" LINK="https://machinelearningmastery.com/adding-a-custom-attention-layer-to-recurrent-neural-network-in-keras/" MODIFIED="1663185944397" TEXT="How to built an attention layer in Keras in RNN architercture">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -4250,7 +4255,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612518955080" ID="ID_254359247" MODIFIED="1662361468397" TEXT="Common algorithms">
+<node CREATED="1612518955080" FOLDED="true" ID="ID_254359247" MODIFIED="1663172690531" TEXT="Common algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518966038" FOLDED="true" ID="ID_644203872" MODIFIED="1645364396209" TEXT="BoW = Bag of Words">
@@ -4264,9 +4269,12 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1612519048891" ID="ID_1704420871" MODIFIED="1636466423852" TEXT="TF-IDF = Term Frequency - Inverse Document Frequency">
+<node CREATED="1612519048891" ID="ID_1704420871" MODIFIED="1663159402432" TEXT="TF-IDF = Term Frequency - Inverse Document Frequency">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="xmag"/>
+<node CREATED="1663159385741" ID="ID_231743060" LINK="https://www.kdnuggets.com/2022/09/convert-text-documents-tfidf-matrix-tfidfvectorizer.html" MODIFIED="1663159416196" TEXT="Tutorial #1">
 <icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1612519054349" ID="ID_1722941637" MODIFIED="1636466423852" TEXT="Word2Vector">
 <font NAME="SansSerif" SIZE="12"/>
