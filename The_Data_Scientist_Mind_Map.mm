@@ -1155,7 +1155,7 @@
 </node>
 <node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
-<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1661632060289" POSITION="left" TEXT="Types of Machine Learning">
+<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1663428146800" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1451,7 +1451,7 @@
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612426392993" FOLDED="true" ID="ID_1936082547" MODIFIED="1645364396187" TEXT="k-Means">
+<node CREATED="1612426392993" ID="ID_1936082547" MODIFIED="1663225393847" TEXT="k-Means">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1491,6 +1491,9 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1663225367910" ID="ID_643799042" LINK="https://copulae.readthedocs.io/en/latest/api_reference/copulae/mixtures/gmc.html" MODIFIED="1663225515235" TEXT="GMCM = Gaussian mixture copula model">
+<icon BUILTIN="button_ok"/>
+</node>
 <node CREATED="1612533782301" ID="ID_1975699183" MODIFIED="1636466423869" TEXT="Agglomerative clustering">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
@@ -1503,9 +1506,9 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1613135141531" ID="ID_1506994641" MODIFIED="1636466423869" TEXT="DBSCAN =  Density-Based Spatial Clustering with Noise">
+<node CREATED="1613135141531" FOLDED="true" ID="ID_1506994641" MODIFIED="1663225364665" TEXT="DBSCAN =  Density-Based Spatial Clustering with Noise">
 <font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="xmag"/>
 <node CREATED="1661462228853" ID="ID_1522980368" LINK="https://www.kdnuggets.com/2022/08/implementing-dbscan-python.html" MODIFIED="1661462262696" TEXT="Tutorial #1">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1584,7 +1587,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636296039564" FOLDED="true" ID="ID_260033684" MODIFIED="1645364396494" TEXT="Encoder-Decoder">
+<node CREATED="1636296039564" FOLDED="true" ID="ID_260033684" MODIFIED="1663225409880" TEXT="Encoder-Decoder">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636296146293" ID="ID_1302148412" LINK="https://machinelearningmastery.com/develop-encoder-decoder-model-sequence-sequence-prediction-keras/#" MODIFIED="1636466423869" TEXT="Sequence-to-Sequence Prediction">
@@ -3598,7 +3601,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1662914547154" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1663428140767" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -4068,14 +4071,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1662876267472" FOLDED="true" ID="ID_1904547463" MODIFIED="1662914543223" TEXT="Bayesian Theorem" VSHIFT="17">
+<node CREATED="1662876267472" FOLDED="true" ID="ID_1904547463" MODIFIED="1663428137833" TEXT="Bayesian Theorem" VSHIFT="17">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662876296393" ID="ID_1264138494" MODIFIED="1662882704724" TEXT="Frequentist (classical) vs. Bayesian approach">
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1662876330383" ID="ID_1330226120" MODIFIED="1662876348783" TEXT="Approximation methods">
 <icon BUILTIN="xmag"/>
-<node CREATED="1662876352676" ID="ID_1852264717" MODIFIED="1662876464420" TEXT="Quadature approximation">
+<node CREATED="1662876352676" ID="ID_1852264717" MODIFIED="1663220442728" TEXT="Quadrature approximation">
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1662876377732" ID="ID_356335924" MODIFIED="1662876464421" TEXT="MAP = Maximum A Posteriori estimation">
@@ -4087,7 +4090,13 @@
 <node CREATED="1662876428419" ID="ID_558120224" MODIFIED="1662876464421" TEXT="Sampling-based approach">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1662877020720" ID="ID_1127588994" MODIFIED="1662877071420" TEXT="MCMC = Markov Chain Monte Carlo">
+</node>
+<node CREATED="1663220447375" FOLDED="true" ID="ID_1865685649" MODIFIED="1663428136381" TEXT="Posterior distribution">
+<icon BUILTIN="xmag"/>
+<node CREATED="1663220457763" ID="ID_1455171939" MODIFIED="1663220524587" TEXT="Conjugate prior [exact]">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1662877020720" ID="ID_1127588994" MODIFIED="1663421128201" TEXT="MCMC = Markov Chain Monte Carlo [approximation]">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662876445809" ID="ID_413231736" MODIFIED="1662876464422" TEXT="Gibbs sampler">
 <icon BUILTIN="button_ok"/>
@@ -4095,14 +4104,20 @@
 <node CREATED="1662876439769" ID="ID_64212234" MODIFIED="1662876464422" TEXT="Metropolis-Hastings">
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1662876449643" ID="ID_1310911370" MODIFIED="1663220368550" TEXT="No U-Turn sampler (NUTS)">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1662876449643" ID="ID_1310911370" MODIFIED="1662876464422" TEXT="No U-Turn sampler">
+<node CREATED="1663220369636" ID="ID_1373125546" MODIFIED="1663220479383" TEXT="Hamiltonian Monte Carlo">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1663421130221" ID="ID_267169369" LINK="https://www.quantstart.com/articles/hidden-markov-models-an-introduction/" MODIFIED="1663421144714" TEXT="Hidden Markov Models">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" HGAP="28" ID="ID_1476128782" MODIFIED="1663185607738" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1663428376439" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4163,10 +4178,10 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1663185609603" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
+<node CREATED="1612517454615" FOLDED="true" HGAP="18" ID="ID_276803807" MODIFIED="1663428375106" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1663159372650" TEXT="Applications">
+<node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1663428195218" TEXT="Applications">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517483755" ID="ID_1232708660" MODIFIED="1636466423853" TEXT="Chatbots">
@@ -4218,13 +4233,13 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612518261813" ID="ID_1416450468" MODIFIED="1663185618738" TEXT="Common architectures">
+<node CREATED="1612518261813" FOLDED="true" ID="ID_1416450468" MODIFIED="1663428372622" TEXT="Common architectures">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612518694601" ID="ID_1303522755" MODIFIED="1636466423853" TEXT="Transformer">
+<node CREATED="1612518694601" FOLDED="true" ID="ID_1303522755" MODIFIED="1663428158109" TEXT="Transformer">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1662010523520" ID="ID_1059667743" LINK="What is Attention?" MODIFIED="1662010592684" TEXT="Attention">
+<node CREATED="1662010523520" FOLDED="true" ID="ID_1059667743" LINK="What is Attention?" MODIFIED="1663428158109" TEXT="Attention">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662010529753" ID="ID_1007078362" LINK="https://machinelearningmastery.com/the-attention-mechanism-from-scratch/" MODIFIED="1662010553494" TEXT="Simple attention example in python">
 <icon BUILTIN="button_ok"/>
@@ -4254,8 +4269,20 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1663428209235" FOLDED="true" ID="ID_864622655" LINK="https://machinelearningmastery.com/what-is-attention/" MODIFIED="1663428370838" TEXT="Attention">
+<icon BUILTIN="xmag"/>
+<node CREATED="1663428217608" ID="ID_1070082241" LINK="https://machinelearningmastery.com/adding-a-custom-attention-layer-to-recurrent-neural-network-in-keras/" MODIFIED="1663428347961" TEXT="Tutorial - RNN">
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1612518955080" FOLDED="true" ID="ID_254359247" MODIFIED="1663172690531" TEXT="Common algorithms">
+<node CREATED="1663428234532" ID="ID_527267921" LINK="https://machinelearningmastery.com/attention-long-short-term-memory-recurrent-neural-networks/" MODIFIED="1663428297719" TEXT="Tutorial - LSTM">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663428238379" ID="ID_1355680206" LINK="https://machinelearningmastery.com/encoder-decoder-attention-sequence-to-sequence-prediction-keras/" MODIFIED="1663428318325" TEXT="Tutorial - Encoder-Decoder">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node CREATED="1612518955080" FOLDED="true" ID="ID_254359247" MODIFIED="1663428201118" TEXT="Common algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518966038" FOLDED="true" ID="ID_644203872" MODIFIED="1645364396209" TEXT="BoW = Bag of Words">
@@ -4269,7 +4296,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1612519048891" ID="ID_1704420871" MODIFIED="1663159402432" TEXT="TF-IDF = Term Frequency - Inverse Document Frequency">
+<node CREATED="1612519048891" FOLDED="true" ID="ID_1704420871" MODIFIED="1663428158117" TEXT="TF-IDF = Term Frequency - Inverse Document Frequency">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1663159385741" ID="ID_231743060" LINK="https://www.kdnuggets.com/2022/09/convert-text-documents-tfidf-matrix-tfidfvectorizer.html" MODIFIED="1663159416196" TEXT="Tutorial #1">
@@ -4335,7 +4362,7 @@
 <node CREATED="1662361493111" ID="ID_1416248511" LINK="https://blog.hubspot.com/marketing/what-is-latent-semantic-indexing-why-does-it-matter-for-your-seo-strategy" MODIFIED="1662361535367" TEXT="Latent Semantic Analysis/Indexing">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636297990210" ID="ID_1931998928" MODIFIED="1662361473755" TEXT="Search decoding algorithms">
+<node CREATED="1636297990210" FOLDED="true" ID="ID_1931998928" MODIFIED="1663428158117" TEXT="Search decoding algorithms">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636298007726" ID="ID_1985811278" LINK="https://machinelearningmastery.com/beam-search-decoder-natural-language-processing/" MODIFIED="1636466423852" TEXT="Greedy Search Decoder">
@@ -4348,7 +4375,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612518864012" FOLDED="true" ID="ID_656168054" MODIFIED="1662010507395" TEXT="Preprocessing">
+<node CREATED="1612518864012" FOLDED="true" ID="ID_656168054" MODIFIED="1663428204934" TEXT="Preprocessing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612518871327" ID="ID_976508276" MODIFIED="1636466423852" TEXT="Lowercasing">
@@ -4404,7 +4431,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1636216113291" FOLDED="true" ID="ID_1721315752" MODIFIED="1645364396517" TEXT="Scores">
+<node CREATED="1636216113291" ID="ID_1721315752" MODIFIED="1663428158120" TEXT="Scores">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636216121107" ID="ID_1504241888" LINK="https://machinelearningmastery.com/calculate-bleu-score-for-text-python/" MODIFIED="1636466423851" TEXT="BLEU">
