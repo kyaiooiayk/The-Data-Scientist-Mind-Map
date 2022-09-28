@@ -28,7 +28,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1661462217907" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
+<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1663580631407" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -36,7 +36,7 @@
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612250539694" FOLDED="true" HGAP="19" ID="ID_419274219" MODIFIED="1648979479623" TEXT="Classification" VSHIFT="10">
+<node CREATED="1612250539694" HGAP="19" ID="ID_419274219" MODIFIED="1663579782053" TEXT="Classification" VSHIFT="10">
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612250567842" ID="ID_1175630985" MODIFIED="1636466423879" TEXT="Accuracy">
@@ -81,6 +81,12 @@
 </node>
 <node CREATED="1613051478752" ID="ID_1468737362" MODIFIED="1636466423879" TEXT="Approximate median significance">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663579790197" ID="ID_158739205" MODIFIED="1663579804298" TEXT="Confusion matrix">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663579796566" ID="ID_1183301734" MODIFIED="1663579804299" TEXT="Hit rate">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -1155,11 +1161,11 @@
 </node>
 <node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
-<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1663428146800" POSITION="left" TEXT="Types of Machine Learning">
+<node CREATED="1612426230614" ID="ID_1758799207" MODIFIED="1664343799781" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612426307271" FOLDED="true" ID="ID_270732501" MODIFIED="1658938472063" TEXT="Supervised">
+<node CREATED="1612426307271" ID="ID_270732501" MODIFIED="1664343807147" TEXT="Supervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1323,9 +1329,12 @@
 <node CREATED="1612530199189" ID="ID_363372194" MODIFIED="1658864338356" TEXT="Regression (Continuous)">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1613906557710" ID="ID_1857282602" MODIFIED="1636466423870" TEXT="Ordinary least square">
+<node CREATED="1613906557710" ID="ID_1857282602" MODIFIED="1664343836783" TEXT="Ordinary least square - Linear regression">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="xmag"/>
+<node CREATED="1664343840025" ID="ID_976552975" LINK="https://vitalflux.com/linear-regression-hypothesis-testing-examples/" MODIFIED="1664343930143" TEXT="Why we need hypothesis testing after finding coefficients">
 <icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1613906575576" ID="ID_1040666949" MODIFIED="1636466423870" TEXT="Lasso regression">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1443,7 +1452,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612426314277" ID="ID_1026946604" MODIFIED="1661462391304" TEXT="Unsupervised">
+<node CREATED="1612426314277" FOLDED="true" ID="ID_1026946604" MODIFIED="1663774511357" TEXT="Unsupervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1688,11 +1697,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1612426317843" FOLDED="true" ID="ID_1648105168" MODIFIED="1658845758534" TEXT="Semi-supervised">
+<node CREATED="1612426317843" FOLDED="true" ID="ID_1648105168" MODIFIED="1664343805085" TEXT="Semi-supervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612530259793" FOLDED="true" ID="ID_62071688" MODIFIED="1649441154641" TEXT="Generative learning">
+<node CREATED="1612530259793" ID="ID_62071688" MODIFIED="1663775145307" TEXT="Generative learning">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613053159869" ID="ID_839304541" MODIFIED="1636466423868" TEXT="GAN = Generative Adversarial Network">
@@ -1704,7 +1713,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612519427796" FOLDED="true" ID="ID_1323665750" MODIFIED="1649441153142" TEXT="RL = Reinforcement Learning">
+<node CREATED="1612519427796" ID="ID_1323665750" MODIFIED="1663774535586" TEXT="RL = Reinforcement Learning">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612519461004" ID="ID_1124354449" MODIFIED="1649440587247" TEXT="Applications">
@@ -1734,8 +1743,14 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1663774638058" ID="ID_644462962" MODIFIED="1663774652533" TEXT="Markov decision process= MDP">
+<icon BUILTIN="button_ok"/>
+</node>
 <node CREATED="1612534457966" ID="ID_555381921" MODIFIED="1636466423868" TEXT="Q-learning">
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663774881568" ID="ID_816634129" MODIFIED="1663774892402" TEXT="DQL - Deep Q-Learning">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -1793,7 +1808,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636465181368" FOLDED="true" ID="ID_1526133273" MODIFIED="1662361448820" POSITION="left" TEXT="Model Selection">
+<node CREATED="1636465181368" FOLDED="true" ID="ID_1526133273" MODIFIED="1663656589157" POSITION="left" TEXT="Model Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612464400658" ID="ID_791053873" MODIFIED="1662196078270" TEXT="Cross-validation">
@@ -3244,7 +3259,7 @@
 <icon BUILTIN="xmag"/>
 <node CREATED="1636531752079" ID="ID_1011814217" LINK="https://machinelearningmastery.com/sitemap/" MODIFIED="1636531766838" TEXT="Machine Learning Mastery"/>
 </node>
-<node CREATED="1636881145328" FOLDED="true" ID="ID_983109948" MODIFIED="1662876221466" POSITION="left" TEXT="Hypothesis Testing">
+<node CREATED="1636881145328" ID="ID_983109948" MODIFIED="1664343056053" POSITION="left" TEXT="Hypothesis Testing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636881154437" ID="ID_739896044" LINK="https://nbviewer.jupyter.org/github/ethen8181/machine-learning/blob/master/bandits/multi_armed_bandits.ipynb  " MODIFIED="1636881216413" TEXT="A/B testing"/>
@@ -3254,7 +3269,7 @@
 <node CREATED="1637933856452" ID="ID_83105905" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/inverse_propensity_weighting.ipynb" MODIFIED="1637933867531" TEXT="inverse propensity weighting"/>
 <node CREATED="1637933957645" ID="ID_925514843" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/matching.ipynb" MODIFIED="1637933970214" TEXT="Matching"/>
 </node>
-<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1662010267257" POSITION="left" TEXT="Data">
+<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1663579776381" POSITION="left" TEXT="Data">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1647711659338" ID="ID_515022280" MODIFIED="1661689168401" TEXT="Where is it coming from?">
@@ -3284,7 +3299,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1661689176820" ID="ID_1048945982" MODIFIED="1661689184633" TEXT="5 Vs">
+<node CREATED="1661689176820" ID="ID_1048945982" MODIFIED="1663570016486" TEXT="5 Vs">
 <icon BUILTIN="xmag"/>
 <node CREATED="1661689187125" ID="ID_434751258" MODIFIED="1661689205822" TEXT="Volume">
 <icon BUILTIN="button_ok"/>
@@ -3299,6 +3314,21 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1661689200015" ID="ID_857555610" MODIFIED="1661689205824" TEXT="Value">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1663570017230" ID="ID_227698810" MODIFIED="1663570029182" TEXT="How to evaluate synthetic data">
+<icon BUILTIN="xmag"/>
+<node CREATED="1663570032309" ID="ID_1397857083" MODIFIED="1663570075981" TEXT="Statistics: mean, median etc ">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663570044405" ID="ID_161330345" MODIFIED="1663570075981" TEXT="KL-divergence">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663570059796" ID="ID_738068818" MODIFIED="1663570075982" TEXT="ROC-curve">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1663570066312" ID="ID_1233173371" MODIFIED="1663570075982" TEXT="Distinguishable">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -3601,7 +3631,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1663428140767" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" HGAP="23" ID="ID_1122699413" MODIFIED="1664343103634" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -3825,14 +3855,14 @@
 <node CREATED="1637344650773" ID="ID_353252014" LINK="https://gdcoder.com/when-why-to-use-log-transformation-in-regression/" MODIFIED="1637344686301" TEXT="Right vs. left-skewed distributions"/>
 </node>
 </node>
-<node CREATED="1636222412035" FOLDED="true" ID="ID_509715407" MODIFIED="1647711629460" TEXT="Sampling">
+<node CREATED="1636222412035" FOLDED="true" ID="ID_509715407" MODIFIED="1664343107605" TEXT="Sampling">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636222428078" ID="ID_1623149879" MODIFIED="1636466423854" TEXT="Monte Carlo sampling">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636222444915" FOLDED="true" ID="ID_1297319707" LINK="https://machinelearningmastery.com/markov-chain-monte-carlo-for-probability/" MODIFIED="1645364396514" TEXT="Markov Chain Monte Carlo sampling">
+<node CREATED="1636222444915" ID="ID_1297319707" LINK="https://machinelearningmastery.com/markov-chain-monte-carlo-for-probability/" MODIFIED="1663785079379" TEXT="Markov Chain Monte Carlo sampling">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636222540192" ID="ID_1415508263" MODIFIED="1636466423854" TEXT="Gibbs Sampling Algorithm">
@@ -3848,7 +3878,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1636469143858" FOLDED="true" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1662876232965" TEXT="Critical Values">
+<node CREATED="1636469143858" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1664343108689" TEXT="Critical Values">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636880139113" ID="ID_746270106" MODIFIED="1649488427451" TEXT="Null-hypothesis">
 <icon BUILTIN="button_ok"/>
@@ -4880,12 +4910,12 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1642762193161" FOLDED="true" ID="ID_1483537348" MODIFIED="1648368621737" POSITION="right" TEXT="MLOPs" VSHIFT="2">
+<node CREATED="1642762193161" ID="ID_1483537348" MODIFIED="1664343097696" POSITION="right" TEXT="MLOPs" VSHIFT="2">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1642762282720" FOLDED="true" ID="ID_567254568" MODIFIED="1647711629467" TEXT="Type of drift">
+<node CREATED="1642762282720" ID="ID_567254568" MODIFIED="1664343097698" TEXT="Type of drift">
 <icon BUILTIN="xmag"/>
-<node CREATED="1642762293687" FOLDED="true" ID="ID_1902473677" LINK="https://www.explorium.ai/blog/understanding-and-handling-data-and-concept-drift/  " MODIFIED="1645364396520" TEXT="Concept rift">
+<node CREATED="1642762293687" ID="ID_1902473677" LINK="https://www.explorium.ai/blog/understanding-and-handling-data-and-concept-drift/  " MODIFIED="1664343097700" TEXT="Concept rift">
 <node CREATED="1642762694487" FOLDED="true" ID="ID_370634763" MODIFIED="1645364396213" TEXT="Way it can appear">
 <node CREATED="1642762374880" ID="ID_14628451" LINK="https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb  " MODIFIED="1642762440865" TEXT="Gradual = expected">
 <icon BUILTIN="button_ok"/>
@@ -4897,7 +4927,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1642762714529" FOLDED="true" ID="ID_1773239979" MODIFIED="1645364396213" TEXT="How to detect?">
+<node CREATED="1642762714529" ID="ID_1773239979" MODIFIED="1664343097702" TEXT="How to detect?">
 <node CREATED="1642762725880" ID="ID_1054397928" MODIFIED="1642762735607" TEXT="Null-hypothesis"/>
 <node CREATED="1642762735944" ID="ID_172838111" LINK="https://en.wikipedia.org/wiki/Earth_mover%27s_distance" MODIFIED="1642762769228" TEXT="Average earch mover&apos;s distance = EMD"/>
 </node>
