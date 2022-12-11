@@ -1161,7 +1161,7 @@
 </node>
 <node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
-<node CREATED="1612426230614" ID="ID_1758799207" MODIFIED="1664343799781" POSITION="left" TEXT="Types of Machine Learning">
+<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1670770800241" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -3259,7 +3259,7 @@
 <icon BUILTIN="xmag"/>
 <node CREATED="1636531752079" ID="ID_1011814217" LINK="https://machinelearningmastery.com/sitemap/" MODIFIED="1636531766838" TEXT="Machine Learning Mastery"/>
 </node>
-<node CREATED="1636881145328" ID="ID_983109948" MODIFIED="1664343056053" POSITION="left" TEXT="Hypothesis Testing">
+<node CREATED="1636881145328" FOLDED="true" ID="ID_983109948" MODIFIED="1670770803189" POSITION="left" TEXT="Hypothesis Testing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636881154437" ID="ID_739896044" LINK="https://nbviewer.jupyter.org/github/ethen8181/machine-learning/blob/master/bandits/multi_armed_bandits.ipynb  " MODIFIED="1636881216413" TEXT="A/B testing"/>
@@ -3631,7 +3631,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" HGAP="23" ID="ID_1122699413" MODIFIED="1664343103634" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1670770797523" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -4910,13 +4910,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1642762193161" ID="ID_1483537348" MODIFIED="1664343097696" POSITION="right" TEXT="MLOPs" VSHIFT="2">
+<node CREATED="1642762193161" FOLDED="true" ID="ID_1483537348" MODIFIED="1670770794724" POSITION="right" TEXT="MLOPs" VSHIFT="2">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1642762282720" ID="ID_567254568" MODIFIED="1664343097698" TEXT="Type of drift">
 <icon BUILTIN="xmag"/>
 <node CREATED="1642762293687" ID="ID_1902473677" LINK="https://www.explorium.ai/blog/understanding-and-handling-data-and-concept-drift/  " MODIFIED="1664343097700" TEXT="Concept rift">
-<node CREATED="1642762694487" FOLDED="true" ID="ID_370634763" MODIFIED="1645364396213" TEXT="Way it can appear">
+<node CREATED="1642762694487" ID="ID_370634763" MODIFIED="1670770789938" TEXT="Ways it can appear">
+<icon BUILTIN="xmag"/>
 <node CREATED="1642762374880" ID="ID_14628451" LINK="https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb  " MODIFIED="1642762440865" TEXT="Gradual = expected">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -5074,7 +5075,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1662876226399" POSITION="left" TEXT="NewBie">
+<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1670770815172" POSITION="left" TEXT="NewBie">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662010364763" ID="ID_342871496" LINK="https://www.kdnuggets.com/2022/08/complete-data-science-study-roadmap.html" MODIFIED="1662010392654" TEXT="The Complete Data Science Study Roadmap">
 <icon BUILTIN="button_ok"/>
