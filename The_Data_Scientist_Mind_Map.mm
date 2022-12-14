@@ -28,7 +28,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1663580631407" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
+<node CREATED="1612104951982" FOLDED="true" HGAP="17" ID="ID_485616531" MODIFIED="1671017660237" POSITION="right" TEXT="Post-Processing" VSHIFT="4">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -967,7 +967,7 @@
 <node CREATED="1661109605470" ID="ID_1631940980" LINK="https://www.youtube.com/watch?v=VMj-3S1tku0" MODIFIED="1661109621717" TEXT="Video tutorials"/>
 </node>
 </node>
-<node CREATED="1612283288430" FOLDED="true" ID="ID_1858721446" MODIFIED="1648980782100" POSITION="left" TEXT="Ensemble Methods">
+<node CREATED="1612283288430" FOLDED="true" ID="ID_1858721446" MODIFIED="1671017664444" POSITION="left" TEXT="Ensemble Methods">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1161,19 +1161,19 @@
 </node>
 <node CREATED="1638513777135" ID="ID_1591038735" LINK="https://ai.googleblog.com/2021/11/model-ensembles-are-faster-than-you.html" MODIFIED="1638513795140" TEXT="Cascade vs. Ensemble"/>
 </node>
-<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1670770800241" POSITION="left" TEXT="Types of Machine Learning">
+<node CREATED="1612426230614" FOLDED="true" ID="ID_1758799207" MODIFIED="1671031056068" POSITION="left" TEXT="Types of Machine Learning">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612426307271" ID="ID_270732501" MODIFIED="1664343807147" TEXT="Supervised">
+<node CREATED="1612426307271" FOLDED="true" ID="ID_270732501" MODIFIED="1671031054768" TEXT="Supervised">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612364320746" FOLDED="true" HGAP="19" ID="ID_1085052567" MODIFIED="1645364396492" TEXT="Classification (Discrete)" VSHIFT="-31">
+<node CREATED="1612364320746" FOLDED="true" HGAP="19" ID="ID_1085052567" MODIFIED="1671031052636" TEXT="Classification (Discrete)" VSHIFT="-31">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612364364103" FOLDED="true" ID="ID_1892045312" MODIFIED="1645364396183" TEXT="Logistic Regression">
+<node CREATED="1612364364103" ID="ID_1892045312" MODIFIED="1671017814677" TEXT="Logistic Regression">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1186,10 +1186,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612772335931" FOLDED="true" ID="ID_292079189" MODIFIED="1645364396183" TEXT="Discriminant Analysis">
+<node CREATED="1612772335931" ID="ID_292079189" MODIFIED="1671017725579" TEXT="Discriminant Analysis">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612364381624" FOLDED="true" ID="ID_1818016054" MODIFIED="1645364395748" TEXT="LDA = Linear Discriminant Analysis">
+<node CREATED="1612364381624" ID="ID_1818016054" MODIFIED="1671017729644" TEXT="LDA = Linear Discriminant Analysis">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -1206,6 +1206,8 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1671018117139" ID="ID_1605759373" LINK="https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/  " MODIFIED="1671018186554" TEXT="Extentions">
+<icon BUILTIN="xmag"/>
 <node CREATED="1612364395048" ID="ID_1058116169" MODIFIED="1636466423872" TEXT="QDA - Quadratic Discriminant Analysis">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
@@ -1220,6 +1222,7 @@
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="Arial" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 <node CREATED="1612427146383" ID="ID_432769892" MODIFIED="1636466423872" TEXT="kNN = k-Nearest Neighbour">
@@ -1266,14 +1269,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612457310242" ID="ID_297158694" MODIFIED="1636466423871" TEXT="CNNs - convolution Neural Networkd (deep learning)">
-<font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1612762970735" FOLDED="true" ID="ID_1797914056" MODIFIED="1645364396185" TEXT="Modes">
+<node CREATED="1612762970735" ID="ID_1797914056" MODIFIED="1671017689878" TEXT="Modes">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612763814678" FOLDED="true" ID="ID_323344301" LINK="https://machinelearningmastery.com/one-vs-rest-and-one-vs-one-for-multi-class-classification/  " MODIFIED="1645364395748" TEXT="Support binary-only classification">
+<node CREATED="1612763814678" ID="ID_323344301" LINK="https://machinelearningmastery.com/one-vs-rest-and-one-vs-one-for-multi-class-classification/  " MODIFIED="1671017694286" TEXT="Support binary-only classification">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612457530845" ID="ID_1741981397" MODIFIED="1636466423871" TEXT="OvR = one-versus-rest (=OvAll)">
@@ -1315,18 +1314,24 @@
 <node CREATED="1636473138268" ID="ID_498810706" LINK="https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/" MODIFIED="1636473150913" TEXT="Calibration">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1636553883005" FOLDED="true" ID="ID_872759842" MODIFIED="1645364396185" TEXT="Diagnostic">
+<node CREATED="1636553883005" ID="ID_872759842" MODIFIED="1671017700113" TEXT="Diagnostic">
 <icon BUILTIN="xmag"/>
-<node CREATED="1636553890828" FOLDED="true" ID="ID_920564419" MODIFIED="1645364395749" TEXT="Confusion Matrix">
+<node CREATED="1636553890828" ID="ID_920564419" MODIFIED="1671017705319" TEXT="Confusion Matrix">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636553901780" ID="ID_1302347698" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html#sphx-glr-auto-examples-model-selection-plot-confusion-matrix-py" MODIFIED="1636553923414" TEXT="Ref #1"/>
 </node>
-<node CREATED="1636558284747" ID="ID_489543706" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html#sphx-glr-auto-examples-model-selection-plot-roc-crossval-py" MODIFIED="1636558326110" TEXT="Receiver Operating Characteristic  = ROC"/>
-<node CREATED="1636558348877" ID="ID_1835490078" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_det.html#sphx-glr-auto-examples-model-selection-plot-det-py" MODIFIED="1636558378179" TEXT="Detection Error Tradeoff  = DET"/>
-<node CREATED="1637934277769" ID="ID_1308960063" LINK="https://github.com/ethen8181/machine-learning/blob/master/model_selection/auc/auc.ipynb" MODIFIED="1637934321817" TEXT="AUC = Area  Under Curve"/>
+<node CREATED="1636558284747" ID="ID_489543706" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html#sphx-glr-auto-examples-model-selection-plot-roc-crossval-py" MODIFIED="1671017711260" TEXT="Receiver Operating Characteristic  = ROC">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1636558348877" ID="ID_1835490078" LINK="https://scikit-learn.org/stable/auto_examples/model_selection/plot_det.html#sphx-glr-auto-examples-model-selection-plot-det-py" MODIFIED="1671017711260" TEXT="Detection Error Tradeoff  = DET">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1637934277769" ID="ID_1308960063" LINK="https://github.com/ethen8181/machine-learning/blob/master/model_selection/auc/auc.ipynb" MODIFIED="1671017711259" TEXT="AUC = Area  Under Curve">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612530199189" ID="ID_363372194" MODIFIED="1658864338356" TEXT="Regression (Continuous)">
+</node>
+<node CREATED="1612530199189" FOLDED="true" ID="ID_363372194" MODIFIED="1671017670845" TEXT="Regression (Continuous)">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613906557710" ID="ID_1857282602" MODIFIED="1664343836783" TEXT="Ordinary least square - Linear regression">
@@ -5075,9 +5080,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1670770815172" POSITION="left" TEXT="NewBie">
+<node CREATED="1662010323643" ID="ID_659633317" MODIFIED="1671031058571" POSITION="left" TEXT="NewBie">
 <icon BUILTIN="xmag"/>
-<node CREATED="1662010364763" ID="ID_342871496" LINK="https://www.kdnuggets.com/2022/08/complete-data-science-study-roadmap.html" MODIFIED="1662010392654" TEXT="The Complete Data Science Study Roadmap">
+<node CREATED="1662010364763" ID="ID_342871496" LINK="https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html" MODIFIED="1671031133558" TEXT="The Complete Data Science Study Roadmap">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
