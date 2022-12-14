@@ -3259,10 +3259,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1636531740078" FOLDED="true" ID="ID_1328369267" MODIFIED="1648368621731" POSITION="left" TEXT="References">
+<node CREATED="1636531740078" FOLDED="true" ID="ID_1328369267" MODIFIED="1671042316949" POSITION="left" TEXT="Resources">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1636531752079" ID="ID_1011814217" LINK="https://machinelearningmastery.com/sitemap/" MODIFIED="1636531766838" TEXT="Machine Learning Mastery"/>
+<node CREATED="1636531752079" ID="ID_1011814217" LINK="https://machinelearningmastery.com/sitemap/" MODIFIED="1671035790892" TEXT="Machine Learning Mastery">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node CREATED="1636881145328" FOLDED="true" ID="ID_983109948" MODIFIED="1670770803189" POSITION="left" TEXT="Hypothesis Testing">
 <font NAME="SansSerif" SIZE="12"/>
@@ -3274,10 +3276,10 @@
 <node CREATED="1637933856452" ID="ID_83105905" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/inverse_propensity_weighting.ipynb" MODIFIED="1637933867531" TEXT="inverse propensity weighting"/>
 <node CREATED="1637933957645" ID="ID_925514843" LINK="https://nbviewer.org/github/ethen8181/machine-learning/blob/master/ab_tests/causal_inference/matching.ipynb" MODIFIED="1637933970214" TEXT="Matching"/>
 </node>
-<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1663579776381" POSITION="left" TEXT="Data">
+<node CREATED="1647711645542" FOLDED="true" ID="ID_583602429" MODIFIED="1671042315432" POSITION="left" TEXT="Data">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1647711659338" ID="ID_515022280" MODIFIED="1661689168401" TEXT="Where is it coming from?">
+<node CREATED="1647711659338" FOLDED="true" ID="ID_515022280" MODIFIED="1671035602707" TEXT="Where is it coming from?">
 <icon BUILTIN="xmag"/>
 <node CREATED="1647711698338" ID="ID_1448069326" MODIFIED="1647711745014" TEXT="Transactional">
 <icon BUILTIN="button_ok"/>
@@ -3304,7 +3306,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1661689176820" ID="ID_1048945982" MODIFIED="1663570016486" TEXT="5 Vs">
+<node CREATED="1661689176820" FOLDED="true" ID="ID_1048945982" MODIFIED="1671035600357" TEXT="5 Vs">
 <icon BUILTIN="xmag"/>
 <node CREATED="1661689187125" ID="ID_434751258" MODIFIED="1661689205822" TEXT="Volume">
 <icon BUILTIN="button_ok"/>
@@ -3322,7 +3324,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1663570017230" ID="ID_227698810" MODIFIED="1663570029182" TEXT="How to evaluate synthetic data">
+<node CREATED="1663570017230" FOLDED="true" ID="ID_227698810" MODIFIED="1671035599307" TEXT="How to evaluate synthetic data">
 <icon BUILTIN="xmag"/>
 <node CREATED="1663570032309" ID="ID_1397857083" MODIFIED="1663570075981" TEXT="Statistics: mean, median etc ">
 <icon BUILTIN="button_ok"/>
@@ -3334,6 +3336,24 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1663570066312" ID="ID_1233173371" MODIFIED="1663570075982" TEXT="Distinguishable">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1671035593626" ID="ID_1840628064" LINK="https://www.kdnuggets.com/2022/03/data-centric-ai-real-everyone-ready.html" MODIFIED="1671035658757" TEXT="Data-centric approach">
+<icon BUILTIN="xmag"/>
+<node CREATED="1671035630665" ID="ID_1012863551" MODIFIED="1671035727474" TEXT="Label consistency">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671035676856" ID="ID_55887099" MODIFIED="1671035727475" TEXT="Noisy label impact">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671035687169" ID="ID_1328858161" MODIFIED="1671035727475" TEXT="Spot inconsistency">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671035699111" ID="ID_507483763" MODIFIED="1671035727476" TEXT="Clarify label instructions">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671035717089" ID="ID_1276891550" MODIFIED="1671035727476" TEXT="Structured error analysis">
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -4152,7 +4172,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1663428376439" POSITION="right" TEXT="Applications" VSHIFT="-5">
+<node CREATED="1613991192297" FOLDED="true" HGAP="28" ID="ID_1476128782" MODIFIED="1671042312583" POSITION="right" TEXT="Applications" VSHIFT="-5">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1613991257563" FOLDED="true" HGAP="15" ID="ID_365002695" MODIFIED="1647711629463" TEXT="Computer vision" VSHIFT="52">
@@ -4213,7 +4233,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1612517454615" FOLDED="true" HGAP="18" ID="ID_276803807" MODIFIED="1663428375106" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
+<node CREATED="1612517454615" HGAP="18" ID="ID_276803807" MODIFIED="1671042308691" TEXT="NLP = Natural Langiage Processing" VSHIFT="1">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612517471274" FOLDED="true" ID="ID_1459739048" MODIFIED="1663428195218" TEXT="Applications">
@@ -5080,7 +5100,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1662010323643" ID="ID_659633317" MODIFIED="1671031058571" POSITION="left" TEXT="NewBie">
+<node CREATED="1662010323643" FOLDED="true" ID="ID_659633317" MODIFIED="1671035582806" POSITION="left" TEXT="NewBie">
 <icon BUILTIN="xmag"/>
 <node CREATED="1662010364763" ID="ID_342871496" LINK="https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html" MODIFIED="1671031133558" TEXT="The Complete Data Science Study Roadmap">
 <icon BUILTIN="button_ok"/>
