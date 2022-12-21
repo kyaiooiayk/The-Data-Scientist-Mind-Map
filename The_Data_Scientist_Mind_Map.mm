@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1662876234982" STYLE="fork" TEXT="The Data Scientist Mind Map">
+<node COLOR="#ff0099" CREATED="1612098077587" ID="ID_1218801051" MODIFIED="1671622160604" STYLE="fork" TEXT="The Data Scientist Mind Map">
 <edge COLOR="#000000" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1612098210434" FOLDED="true" HGAP="10" ID="ID_1764351801" MODIFIED="1661109564520" POSITION="right" STYLE="fork" TEXT="Regularisation" VSHIFT="231">
@@ -160,7 +160,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1662195960462" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
+<node CREATED="1612346007166" FOLDED="true" HGAP="24" ID="ID_868088033" MODIFIED="1671622206539" POSITION="right" TEXT="Pre-Processing" VSHIFT="-1">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
@@ -333,7 +333,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612427760980" ID="ID_794174381" MODIFIED="1662194105521" TEXT="Feature Engineering">
+<node CREATED="1612427760980" FOLDED="true" ID="ID_794174381" MODIFIED="1671622168556" TEXT="Feature Engineering">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636386169219" ID="ID_258746187" LINK="https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning/" MODIFIED="1636466423877" TEXT="Polynomial Feature Transforms">
@@ -487,11 +487,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1612346219316" FOLDED="true" ID="ID_1463702153" MODIFIED="1658939501067" TEXT="Dimensionality Reduction">
+<node CREATED="1612346219316" FOLDED="true" ID="ID_1463702153" MODIFIED="1671622205590" TEXT="Dimensionality Reduction">
 <edge COLOR="#000000" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
-<node CREATED="1612427775403" FOLDED="true" ID="ID_517080443" MODIFIED="1658939494868" TEXT="via Feature Selection">
+<node CREATED="1612427775403" ID="ID_517080443" MODIFIED="1671622175374" TEXT="via Feature Selection">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428064712" ID="ID_1414618435" MODIFIED="1636466423877" TEXT="Factor analysis">
@@ -557,7 +557,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612427862177" FOLDED="true" ID="ID_461824067" MODIFIED="1658939496435" TEXT="via Feature Extraction">
+<node CREATED="1612427862177" ID="ID_461824067" MODIFIED="1671622173794" TEXT="via Feature Extraction">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428104667" FOLDED="true" ID="ID_1574413017" LINK="https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/" MODIFIED="1658939323794" TEXT="PCA = Principal Component Analysis">
@@ -612,7 +612,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1612428317746" FOLDED="true" ID="ID_1713967792" MODIFIED="1658939498768" TEXT="via Projections">
+<node CREATED="1612428317746" ID="ID_1713967792" MODIFIED="1671622172076" TEXT="via Projections">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612428333301" ID="ID_1756405621" MODIFIED="1658939240947" TEXT="t-SNE = t-distributed Stochastic Neighbour Embedding">
@@ -3656,7 +3656,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1670770797523" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
+<node CREATED="1612529023691" FOLDED="true" HGAP="23" ID="ID_1122699413" MODIFIED="1671622155873" POSITION="right" TEXT="Statistics &amp; Probability" VSHIFT="-3">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1612529036060" FOLDED="true" ID="ID_1352231079" LINK="https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm  " MODIFIED="1647711629457" TEXT="Statistical distribution">
@@ -3880,7 +3880,7 @@
 <node CREATED="1637344650773" ID="ID_353252014" LINK="https://gdcoder.com/when-why-to-use-log-transformation-in-regression/" MODIFIED="1637344686301" TEXT="Right vs. left-skewed distributions"/>
 </node>
 </node>
-<node CREATED="1636222412035" FOLDED="true" ID="ID_509715407" MODIFIED="1664343107605" TEXT="Sampling">
+<node CREATED="1636222412035" FOLDED="true" ID="ID_509715407" MODIFIED="1671622154755" TEXT="Sampling">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="xmag"/>
 <node CREATED="1636222428078" ID="ID_1623149879" MODIFIED="1636466423854" TEXT="Monte Carlo sampling">
@@ -3903,7 +3903,40 @@
 </node>
 </node>
 </node>
-<node CREATED="1636469143858" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1664343108689" TEXT="Critical Values">
+<node CREATED="1671620555179" FOLDED="true" ID="ID_92681326" LINK="https://medium.com/analytics-vidhya/sampling-statistical-approach-in-machine-learning-4903c40ebf86" MODIFIED="1671622153330" TEXT="Sampling Methods">
+<icon BUILTIN="xmag"/>
+<node CREATED="1671620599632" ID="ID_1062786606" MODIFIED="1671620948625" TEXT="Probability sampling">
+<icon BUILTIN="xmag"/>
+<node CREATED="1671621018001" ID="ID_929241352" MODIFIED="1671621051676" TEXT="Convenience sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671621024979" ID="ID_124448775" MODIFIED="1671621051677" TEXT="Judgmental or purpoisive sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671621035864" ID="ID_294790858" MODIFIED="1671621051678" TEXT="Snowball sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671621042954" ID="ID_221138591" MODIFIED="1671621051678" TEXT="Quota sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1671620603872" ID="ID_999139006" MODIFIED="1671620948626" TEXT="Non-Probability sampling">
+<icon BUILTIN="xmag"/>
+<node CREATED="1671621056284" ID="ID_1105776995" MODIFIED="1671621092627" TEXT="Simple random sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671621069115" ID="ID_740827979" MODIFIED="1671621092628" TEXT="Cluster sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671621073015" ID="ID_288398087" MODIFIED="1671621092629" TEXT="Systematic sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1671621077482" ID="ID_596117920" MODIFIED="1671621092629" TEXT="Stratified random sampling">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node CREATED="1636469143858" FOLDED="true" ID="ID_707513551" LINK="https://machinelearningmastery.com/critical-values-for-statistical-hypothesis-testing/" MODIFIED="1671620375641" TEXT="Critical Values">
 <icon BUILTIN="xmag"/>
 <node CREATED="1636880139113" ID="ID_746270106" MODIFIED="1649488427451" TEXT="Null-hypothesis">
 <icon BUILTIN="button_ok"/>
